@@ -1,0 +1,160 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta name="generator" content=
+          "HTML Tidy for Linux/x86 (vers 11 February 2007), see www.w3.org" />
+    <meta http-equiv="Content-Type" content="text/html; charset=us-ascii" />
+
+    <title>GarageMania.com</title>
+  </head>
+
+  <body>
+    <div id="masterhead">
+      <div class="inner">
+        <div class="container">
+          <h1>Finally, a place to see where local treasures can be be found.</h1>
+
+          <p class="lead">GarageMania.com is a site where local yard sale hunters can look
+            at what's upcoming in the local neighborhood.<br />
+            Get started now! Enter an address below.<br /></p>
+        </div><!-- /container -->
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="content">
+        <ul class="tabs">
+          <li class="active"><a href="#">Home</a></li>
+          <li><a data-controls-modal="post-sale-div" data-backdrop="true">Post A Garage Sale</a></li>
+        </ul>
+
+
+        <div id="view-listing-pane">
+          <form>
+            <fieldset>
+              <legend>Find a yard sale now!</legend> <!-- /clearfix -->
+
+              <label for="xlInput2">Find Near:</label>
+
+              <div class="input">
+                <input class="xlarge error" id="xlInput2" name="xlInput2" size="30" type=
+                       "text" /> <span class="help-inline">Enter an address.</span>
+              </div>
+
+
+              <label>Date Range</label>
+
+              <div class="input">
+                <div class="inline-inputs">
+                  <input class="small" type="text" value="May 1, 2011" />
+                  <input class=
+                         "mini" type="text" value="12:00am" /> to <input class="small" type="text"
+                         value="May 8, 2011" /> <input class="mini" type="text" value="11:59pm" />
+                  <span class="help-inline">Enter a time..</span>
+                </div>
+              </div>
+
+              <input id="find-now-btn" type="submit" class="btn large primary" value=
+                     "Find now!" />
+            </fieldset>
+          </form>
+
+          <%= gmaps4rails(@maps_json) %>
+
+          <br />
+
+        </div>
+        <div id="post-sale-div" class="modal hide fade">
+          <a name="post-sale" id="post-sale"></a>
+
+          <form>
+            <fieldset>
+              <legend>Post a yard sale now!</legend>
+
+              <%= form_for(Listing.new) do |f| %>
+
+
+                <div class="clearfix">
+                  <label for="textarea">Description</label>
+
+                  <div class="input">
+                    <textarea class="xxlarge" id="textarea" name="textarea">
+                    </textarea> <span class="help-block">To increase your success, please give a brief
+                      description of the item's for sale.</span>
+                  </div>
+                </div>
+
+                <div class="clearfix">
+                  <%= f.label :description %>
+                  <div class="input">
+                    <%= f.text_area :description, :class => 'xxlarge', :style => '', :rows => 5 %>
+                    <span class="help-block">To increase your success, please give a brief
+                      description of the item's for sale.</span>
+                  </div>
+                </div>
+
+                <div class="actions">
+                  <%= f.submit %>
+                </div>
+              <% end  %>
+              <div class="clearfix">
+                <label for="xlInput2">Sale Location:</label>
+
+                <div class="input">
+                  <input class="xlarge error" id="xlInput2" name="xlInput2" size="30" type=
+                         "text" /> <span class="help-inline">Enter the sale's location.</span>
+                </div>
+              </div>
+
+              <div class="clearfix">
+                <label for="fileInput">File Input</label>
+
+                <div class="input">
+                  <input class="input-file" id="fileInput" name="fileInput" type=
+                         "file" /><span class=
+                         "help-inline">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Provide
+                    an image of the sale items.</span>
+                </div>
+              </div><!-- /clearfix -->
+
+              <div class="clearfix">
+                <label id="optionsCheckboxes">List of Options</label>
+
+                <div class="input">
+                  <ul class="inputs-list">
+                    <li><label><input type="radio" name="come-early" value="option1" />
+                        <span>Yes, people can come earlier than the time
+                          specified.</span></label></li>
+
+                    <li><label><input type="radio" name="come-early" value="option2" />
+                        <span>No early birds please.</span></label></li>
+                  </ul><span class="help-block">Indicate whether people can come earlier
+                    than the time specified.</span>
+                </div>
+              </div><!-- /clearfix -->
+
+              <div class="clearfix">
+                <label for="textarea">Description</label>
+
+                <div class="input">
+                  <textarea class="xxlarge" id="textarea" name="textarea">
+                  </textarea> <span class="help-block">To increase your success, please give a brief
+                    description of the item's for sale.</span>
+                </div>
+              </div>
+
+              <div class="actions">
+                <input id="post-now-btn" type="submit" class="btn large primary" value=
+                       "Post now!" />
+                <input id="cancel-post-btn" type="submit" class="btn large primary" value="Cancel"/>
+              </div><!-- /clearfix -->
+            </fieldset>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+
+</html>

@@ -1,0 +1,35 @@
+<p id="notice"><%= notice %></p>
+<%= gmaps4rails(@maps_json) %>
+<p>
+  <b>Description:</b>
+  <%= @listing.description %>
+</p>
+
+<p>
+  <b>Address:</b>
+  <%= @listing.address %>
+</p>
+
+<p>
+  <b>Start day:</b>
+  <%= @listing.start_day %>
+</p>
+
+<p>
+  <b>End day:</b>
+  <%= @listing.end_day %>
+</p>
+
+<p>
+  <b>Start time:</b>
+  <%= @listing.start_time %>
+</p>
+
+<p>
+  <b>End time:</b>
+  <%= @listing.end_time %>
+</p>
+
+
+<%= link_to 'Edit', edit_listing_path(@listing) %> |
+<%= link_to 'Back', listings_path %>

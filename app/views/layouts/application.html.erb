@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Garage</title>
+  <%= stylesheet_link_tag :all %>
+  <%= javascript_include_tag :defaults %>
+  <%= javascript_include_tag "jquery-1.6.2.min" %>
+  <%= javascript_include_tag "bootstrap-modal" %>
+  <%= csrf_meta_tag %>
+  <%= yield :head %>
+</head>
+<body>
+
+<%= yield %>
+
+  <%= yield :scripts %>
+</body>
+</html>

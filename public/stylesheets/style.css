@@ -1,0 +1,30 @@
+@CHARSET "UTF-8";
+#masterhead div.inner, #footer div.inner {
+    background-color: yellow;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3) inset;
+    padding: 45px 0;
+}
+
+fieldset legend {
+    padding: 30px;
+}
+
+#find-now-btn {
+    float: right;
+    position: relative;
+    top: -50px;
+    left: -100px;
+    
+}
+
+body {
+    padding-top: 40px;
+}
+
+#view-listing-pane {
+    border: 1px dotted;
+}
+
+.map_container {
+    margin-left: 5%;
+}
