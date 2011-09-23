@@ -632,7 +632,6 @@ textarea,
 select,
 .uneditable-input {
   display: inline-block;
-  width: 210px;
   height: 18px;
   padding: 4px;
   font-size: 13px;
@@ -2055,7 +2054,7 @@ button.btn::-moz-focus-inner, input[type=submit].btn::-moz-focus-inner {
 }
 .modal-backdrop {
   background-color: #000000;
-  position: fixed;.
+  position: fixed;
   top: 0;
   left: 0;
   right: 0;
@@ -2075,7 +2074,7 @@ button.btn::-moz-focus-inner, input[type=submit].btn::-moz-focus-inner {
   position: absolute;
   overflow: scroll;
   top: 60%;
-  left: 33%;
+  left: 25%;
   z-index: 11000;
   width: 80%;
   margin: -250px 0 0 -250px;

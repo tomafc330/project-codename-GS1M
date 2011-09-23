@@ -8,6 +8,7 @@ class ListingsController < ApplicationController
     @listings = Listing.all
     @maps_json = @listings.to_gmaps4rails
   end
+  
   # GET /listings
   # GET /listings.xml
   def index
@@ -56,13 +57,16 @@ class ListingsController < ApplicationController
   # POST /listings.xml
   def create
     @listing = Listing.new(params[:listing])
+    @listing.start_time =
+      Time.mktime(params[:listing]['start_day(1i)'].to_i, params[:listing]['start_day(2i)'].to_i,
+        params[:listing]['start_day(3i)'].to_i, params[:date][hour].to_i, params[:date][minute])
 
-    respond_to do |format|
+      respond_to do |format|
       if @listing.save
-        format.html { redirect_to(@listing, :notice => 'Listing was successfully created.') }
+        format.html { render :action => "index", :notice => 'done deal!' }
         format.xml  { render :xml => @listing, :status => :created, :location => @listing }
       else
-        format.html { render :action => "new" }
+        format.html { render :action => "index" }
         format.xml  { render :xml => @listing.errors, :status => :unprocessable_entity }
       end
     end

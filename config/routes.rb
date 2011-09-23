@@ -1,6 +1,7 @@
 Garage::Application.routes.draw do
   resources :listings
 
+  root :to => 'listings#index'
   match 'listings/search' => 'listings#search'
 
   # The priority is based upon order of creation:
