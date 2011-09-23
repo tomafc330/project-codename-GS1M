@@ -11,13 +11,11 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20110904195100) do
+ActiveRecord::Schema.define(:version => 20110923033908) do
 
   create_table "listings", :force => true do |t|
     t.string   "description"
     t.string   "address"
-    t.date     "start_day"
-    t.date     "end_day"
     t.datetime "start_time"
     t.datetime "end_time"
     t.datetime "created_at"
