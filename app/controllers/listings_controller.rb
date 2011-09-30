@@ -58,10 +58,14 @@ class ListingsController < ApplicationController
   def create
     @listing = Listing.new(params[:listing])
     @listing.start_time =
-      Time.mktime(params[:listing]['start_day(1i)'].to_i, params[:listing]['start_day(2i)'].to_i,
-        params[:listing]['start_day(3i)'].to_i, params[:date][hour].to_i, params[:date][minute])
+      Time.mktime(params[:listing]['start_time(1i)'].to_i, params[:listing]['start_time(2i)'].to_i,
+      params[:listing]['start_time(3i)'].to_i, params[:start_time]['hour'].to_i, params[:start_time]['minute'])
 
-      respond_to do |format|
+    @listing.end_time =
+      Time.mktime(params[:listing]['start_time(1i)'].to_i, params[:listing]['start_time(2i)'].to_i,
+      params[:listing]['start_time(3i)'].to_i, params[:end_time]['hour'].to_i, params[:end_time]['minute'])
+    
+    respond_to do |format|
       if @listing.save
         format.html { render :action => "index", :notice => 'done deal!' }
         format.xml  { render :xml => @listing, :status => :created, :location => @listing }
