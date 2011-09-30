@@ -78,6 +78,7 @@
         var that = this
         this.isShown = true
         this.$element.trigger('show')
+        this.settings.backdrop = true
 
         escape.call(this)
         backdrop.call(this, function () {
@@ -86,7 +87,7 @@
             .show()
 
           if ($.support.transition && that.$element.hasClass('fade')) {
-            that.$backdrop[0].offsetWidth // force reflow
+            that.$element[0].offsetWidth // force reflow
           }
 
           that.$element

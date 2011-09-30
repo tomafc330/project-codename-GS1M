@@ -28,3 +28,7 @@ body {
 .map_container {
     margin-left: 5%;
 }
+
+#messages {
+    margin: 3%;
+}

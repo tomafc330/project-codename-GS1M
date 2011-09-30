@@ -11,6 +11,7 @@
   </head>
 
   <body>
+
     <div id="masterhead">
       <div class="inner">
         <div class="container">
@@ -67,12 +68,21 @@
 
         </div>
         <div id="post-sale-div" class="modal hide fade">
+
+          <% if @listing && @listing.errors.any? %>
+            <div id="messages" class="alert-message error">
+                <% @listing.errors.full_messages.each do |msg| %>
+                  <strong>Oops!</strong> <%= msg %>
+                <% end %>
+            </div>
+          <% end %>
+
           <a name="post-sale" id="post-sale"></a>
 
           <fieldset>
             <legend>Post a yard sale now!</legend>
 
-            <%= form_for(Listing.new, :remote => true, :html => {:multipart => true}) do |f| %>
+            <%= form_for(Listing.new, :html => {:multipart => true}) do |f| %>
 
               <div class="clearfix">
                 <label>Sale Address:</label>
@@ -98,7 +108,7 @@
                   <%= select_time Time.new(2011, 1, 1, 10), :prefix => "start_time" %>
                   <span class="help-inline">Enter the sale's start time.</span>
                 </div>
-                
+
               </div>
 
               <div class="clearfix">

@@ -6,4 +6,6 @@ class Listing < ActiveRecord::Base
   def gmaps4rails_address
     "#{self.address}"
   end
+
+  has_many :images, :dependent => :destroy
 end
