@@ -12,6 +12,16 @@
 
   <body>
 
+    <div class="topbar-inner">
+      <div class="container">
+        <ul class="nav">
+          <li class="active"><a href="#overview">Home</a></li>
+          <li class=""><a href="#grid-system">Post A Sale</a></li>
+          <li class=""><a href="#about">About</a></li>
+        </ul>
+      </div>
+    </div>
+
     <div id="masterhead">
       <div class="inner">
         <div class="container">
@@ -24,152 +34,162 @@
       </div>
     </div>
 
-    <div class="container">
-      <div class="content">
-        <ul class="tabs">
-          <li class="active"><a href="#">Home</a></li>
-          <li><a data-controls-modal="post-sale-div" data-backdrop="true">Post A Garage Sale</a></li>
-        </ul>
+    <div class="container-fluid">
+      <div class="span11">
+        <div class="content">
+
+          <div id="view-listing-pane" class="div-shadow">
+
+            <div class="find-sale">
+              <form>
+                <fieldset>
+                  <legend>Find a yard sale now!</legend> <!-- /clearfix -->
+
+                  <label for="xlInput2">Find Near:</label>
+
+                  <div class="input">
+                    <input class="xlarge error" id="xlInput2" name="xlInput2" size="30" type=
+                           "text" /> <span class="help-inline">Enter an address.</span>
+                  </div>
 
 
-        <div id="view-listing-pane">
-          <form>
-            <fieldset>
-              <legend>Find a yard sale now!</legend> <!-- /clearfix -->
+                  <label>Date Range</label>
 
-              <label for="xlInput2">Find Near:</label>
+                  <div class="input">
+                    <div class="inline-inputs">
+                      <input class="small" type="text" value="May 1, 2011" />
+                      <input class=
+                             "mini" type="text" value="12:00am" /> to <input class="small" type="text"
+                             value="May 8, 2011" /> <input class="mini" type="text" value="11:59pm" />
+                      <span class="help-inline">Enter a time..</span>
+                    </div>
+                  </div>
 
-              <div class="input">
-                <input class="xlarge error" id="xlInput2" name="xlInput2" size="30" type=
-                       "text" /> <span class="help-inline">Enter an address.</span>
-              </div>
+                  <input id="find-now-btn" type="submit" class="btn large primary" value=
+                         "Find now!" />
+                </fieldset>
+              </form>
 
+            </div>
 
-              <label>Date Range</label>
+            <%= gmaps4rails(@maps_json) %>
 
-              <div class="input">
-                <div class="inline-inputs">
-                  <input class="small" type="text" value="May 1, 2011" />
-                  <input class=
-                         "mini" type="text" value="12:00am" /> to <input class="small" type="text"
-                         value="May 8, 2011" /> <input class="mini" type="text" value="11:59pm" />
-                  <span class="help-inline">Enter a time..</span>
-                </div>
-              </div>
+            <br />
 
-              <input id="find-now-btn" type="submit" class="btn large primary" value=
-                     "Find now!" />
-            </fieldset>
-          </form>
+          </div>
+          <div id="post-sale-div" class="modal hide fade">
 
-          <%= gmaps4rails(@maps_json) %>
-
-          <br />
-
-        </div>
-        <div id="post-sale-div" class="modal hide fade">
-
-          <% if @listing && @listing.errors.any? %>
-            <div id="messages" class="alert-message error">
+            <% if @listing && @listing.errors.any? %>
+              <div id="messages" class="alert-message error">
                 <% @listing.errors.full_messages.each do |msg| %>
                   <strong>Oops!</strong> <%= msg %>
                 <% end %>
-            </div>
-          <% end %>
-
-          <a name="post-sale" id="post-sale"></a>
-
-          <fieldset>
-            <legend>Post a yard sale now!</legend>
-
-            <%= form_for(Listing.new, :html => {:multipart => true}) do |f| %>
-
-              <div class="clearfix">
-                <label>Sale Address:</label>
-                <div class="input">
-                  <%= f.text_field :address, :class => 'xlarge error' %>
-                  <span class="help-inline">Enter the sale's location.</span>
-                </div>
               </div>
+            <% end %>
 
-              <div class="clearfix">
-                <label>Start Date</label>
-                <div class="input">
-                  <%= f.date_select :start_time , :class => 'xlarge' %>
-                  <span class="help-inline">Enter the sale's start date.</span>
+            <a name="post-sale" id="post-sale"></a>
+
+            <fieldset>
+              <legend>Post a yard sale now!</legend>
+
+              <%= form_for(Listing.new, :html => {:multipart => true}) do |f| %>
+
+                <div class="clearfix">
+                  <label>Sale Address:</label>
+                  <div class="input">
+                    <%= f.text_field :address, :class => 'xlarge error' %>
+                    <span class="help-inline">Enter the sale's location.</span>
+                  </div>
                 </div>
-              </div>
 
-              <div class="clearfix">
-                <label>Start Time</label>
-
-                <div class="input">
-
-                  <%= select_time Time.new(2011, 1, 1, 10), :prefix => "start_time" %>
-                  <span class="help-inline">Enter the sale's start time.</span>
+                <div class="clearfix">
+                  <label>Start Date</label>
+                  <div class="input">
+                    <%= f.date_select :start_time , :class => 'xlarge' %>
+                    <span class="help-inline">Enter the sale's start date.</span>
+                  </div>
                 </div>
 
-              </div>
+                <div class="clearfix">
+                  <label>Start Time</label>
 
-              <div class="clearfix">
-                <label>End Time</label>
-                <div class="input">
-                  <%= select_time Time.new(2011, 1, 1, 16), :prefix => "end_time" %>
-                  <span class="help-inline">Enter the sale's end time.</span>
+                  <div class="input">
+
+                    <%= select_time Time.new(2011, 1, 1, 10), :prefix => "start_time" %>
+                    <span class="help-inline">Enter the sale's start time.</span>
+                  </div>
+
                 </div>
-              </div>
 
-
-              <div class="clearfix">
-                <label for="fileInput">File Input:</label>
-
-                <div class="input">
-                  <%= f.file_field 'upload', :class => 'input-file' %>
-                  <span class=
-                        "help-inline">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Provide
-                    an image of the sale items.</span>
+                <div class="clearfix">
+                  <label>End Time</label>
+                  <div class="input">
+                    <%= select_time Time.new(2011, 1, 1, 16), :prefix => "end_time" %>
+                    <span class="help-inline">Enter the sale's end time.</span>
+                  </div>
                 </div>
-              </div><!-- /clearfix -->
 
-              <div class="clearfix">
-                <label>Description:</label>
-                <div class="input">
-                  <%= f.text_area :description, :class => 'xxlarge', :style => '', :rows => 5 %>
-                  <span class="help-block">To increase your success, please give a brief
-                    description of the item's for sale.</span>
+
+                <div class="clearfix">
+                  <label for="fileInput">File Input:</label>
+
+                  <div class="input">
+                    <%= f.file_field 'upload', :class => 'input-file' %>
+                    <span class=
+                          "help-inline">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Provide
+                      an image of the sale items.</span>
+                  </div>
+                </div><!-- /clearfix -->
+
+                <div class="clearfix">
+                  <label>Description:</label>
+                  <div class="input">
+                    <%= f.text_area :description, :class => 'xxlarge', :style => '', :rows => 5 %>
+                    <span class="help-block">To increase your success, please give a brief
+                      description of the item's for sale.</span>
+                  </div>
                 </div>
-              </div>
 
-              <div class="clearfix">
-                <label>List of Options</label>
+                <div class="clearfix">
+                  <label>List of Options</label>
 
-                <div class="input">
-                  <ul class="inputs-list">
-                    <li><label><input type="radio" name="come-early" value="option1" />
-                        <span>Yes, people can come earlier than the time
-                          specified.</span></label></li>
+                  <div class="input">
+                    <ul class="inputs-list">
+                      <li><label><input type="radio" name="come-early" value="option1" />
+                          <span>Yes, people can come earlier than the time
+                            specified.</span></label></li>
 
-                    <li><label><input type="radio" name="come-early" value="option2" />
-                        <span>No early birds please.</span></label></li>
-                  </ul><span class="help-block">Indicate whether people can come earlier
-                    than the time specified.</span>
+                      <li><label><input type="radio" name="come-early" value="option2" />
+                          <span>No early birds please.</span></label></li>
+                    </ul><span class="help-block">Indicate whether people can come earlier
+                      than the time specified.</span>
+                  </div>
+                </div><!-- /clearfix -->
+
+                <div class="actions">
+                  <%= f.submit :class => 'btn large primary' %>
+                  <input id="cancel-post-btn" type="submit" class="btn large primary" value="Cancel"/>
                 </div>
-              </div><!-- /clearfix -->
+              <% end  %>
 
-              <div class="actions">
-                <%= f.submit :class => 'btn large primary' %>
-                <input id="cancel-post-btn" type="submit" class="btn large primary" value="Cancel"/>
-              </div>
-            <% end  %>
-
-          </fieldset>
+            </fieldset>
+          </div>
         </div>
       </div>
-    </div>
 
+      <div class="sidebar">
+        <fieldset>
+          <legend>Here are the listings in the area:</legend>
+        </fieldset>
+      </div>
+
+      <div id="footer">
+      </div>
+    </div>
     <div class="hide">
       <p id="notice"><%= notice %></p>
     </div>
+
 
   </body>
 
