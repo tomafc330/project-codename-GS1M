@@ -16,7 +16,7 @@
       <div class="container">
         <ul class="nav">
           <li class="active"><a href="#overview">Home</a></li>
-          <li class=""><a href="#grid-system">Post A Sale</a></li>
+          <li class=""><a data-controls-modal="post-sale-div" data-backdrop="true">Post A Sale</a></li>
           <li class=""><a href="#about">About</a></li>
         </ul>
       </div>
@@ -82,7 +82,7 @@
             <% if @listing && @listing.errors.any? %>
               <div id="messages" class="alert-message error">
                 <% @listing.errors.full_messages.each do |msg| %>
-                  <strong>Oops!</strong> <%= msg %>
+                  <div class="oops"><strong>Oops!</strong> <%= msg %></div>
                 <% end %>
               </div>
             <% end %>
@@ -93,6 +93,15 @@
               <legend>Post a yard sale now!</legend>
 
               <%= form_for(Listing.new, :html => {:multipart => true}) do |f| %>
+                 <%= f.error_messages %>
+
+                <div class="clearfix">
+                  <label>Email Address:</label>
+                  <div class="input">
+                    <%= f.text_field :email, :class => 'xlarge error' %>
+                    <span class="help-inline">Enter your e-mail address so you can edit the listing later.</span>
+                  </div>
+                </div>
 
                 <div class="clearfix">
                   <label>Sale Address:</label>
@@ -145,8 +154,8 @@
                   <label>Description:</label>
                   <div class="input">
                     <%= f.text_area :description, :class => 'xxlarge', :style => '', :rows => 5 %>
-                    <span class="help-block">To increase your success, please give a brief
-                      description of the item's for sale.</span>
+                    <span class="help-block">To increase your success by 63%, please give a brief
+                      description of the item's for sale. (150 characters max)</span>
                   </div>
                 </div>
 

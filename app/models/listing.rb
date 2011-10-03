@@ -3,6 +3,9 @@ class Listing < ActiveRecord::Base
   geocoded_by :address
   after_validation :geocode
 
+  validates_format_of :email,
+    :with => /^([^\s]+)((?:[-a-z0-9]\.)[a-z]{2,})$/i
+
   def gmaps4rails_address
     "#{self.address}"
   end

@@ -11,6 +11,8 @@ gem 'gmaps4rails'
 
 gem 'geocoder'
 
+gem 'dynamic_form'
+
 # Use unicorn as the web server
 # gem 'unicorn'
 

@@ -61,3 +61,8 @@ fieldset legend {
     background-color:#eeeeee;
     margin: 2%;
 }
+
+.oops {
+    padding: 10px;
+    margin-bottom: 10px;
+}
