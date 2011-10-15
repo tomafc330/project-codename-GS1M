@@ -11,7 +11,16 @@ gem 'gmaps4rails'
 
 gem 'geocoder'
 
+# Used for validation on individual fields
 gem 'dynamic_form'
+
+# Used for connecting to s3
+gem 'fog'
+
+# Used for thumbnails and image resizing
+gem 'mini_magick'
+
+gem 'carrierwave'
 
 # Use unicorn as the web server
 # gem 'unicorn'

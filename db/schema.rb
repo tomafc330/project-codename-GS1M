@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20111003022827) do
+ActiveRecord::Schema.define(:version => 20111011153301) do
 
   create_table "images", :force => true do |t|
     t.string   "url"
@@ -31,6 +31,17 @@ ActiveRecord::Schema.define(:version => 20111003022827) do
     t.float    "longitude"
     t.boolean  "gmaps"
     t.string   "email"
+  end
+
+  create_table "listings_options", :id => false, :force => true do |t|
+    t.integer "listing_id"
+    t.integer "option_id"
+  end
+
+  create_table "options", :force => true do |t|
+    t.string   "name"
+    t.datetime "created_at"
+    t.datetime "updated_at"
   end
 
 end

@@ -64,6 +64,11 @@ class ListingsController < ApplicationController
     @listing.end_time =
       Time.mktime(params[:listing]['start_time(1i)'].to_i, params[:listing]['start_time(2i)'].to_i,
       params[:listing]['start_time(3i)'].to_i, params[:end_time]['hour'].to_i, params[:end_time]['minute'])
+
+    #add the image
+    if params.has_key?(:image)
+      @listing.images.build :url =>  params[:image]
+    end
     
     respond_to do |format|
       if @listing.save

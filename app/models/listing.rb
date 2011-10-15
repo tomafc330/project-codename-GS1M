@@ -1,4 +1,6 @@
 class Listing < ActiveRecord::Base
+  attr_accessor :image
+  
   acts_as_gmappable
   geocoded_by :address
   after_validation :geocode
@@ -11,4 +13,6 @@ class Listing < ActiveRecord::Base
   end
 
   has_many :images, :dependent => :destroy
+  has_and_belongs_to_many :options
+  accepts_nested_attributes_for :images
 end

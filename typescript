@@ -1,0 +1,1521 @@
+Script started on Mon 03 Oct 2011 06:38:14 PM PDT
+]0;tchan@acjcm3c: ~/repo/garagetchan@acjcm3c:~/repo/garage$ plugin
+plugin: command not found
+]0;tchan@acjcm3c: ~/repo/garagetchan@acjcm3c:~/repo/garage$ script[K[K[K[K[K[Kwchi[K[K[Khich script
+/usr/bin/script
+]0;tchan@acjcm3c: ~/repo/garagetchan@acjcm3c:~/repo/garage$ script/plugin
+bash: script/plugin: No such file or directory
+]0;tchan@acjcm3c: ~/repo/garagetchan@acjcm3c:~/repo/garage$ script [K/plugin isntal[K[K[K[Kn[K[Knstall script/plugin install[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Khttps://github.com/technoweenie/attachment_fu.git\[K
+bash: script/plugin: No such file or directory
+]0;tchan@acjcm3c: ~/repo/garagetchan@acjcm3c:~/repo/garage$ script/plugin install https://github.com/technoweenie/attachment_fu.git[1P[1@ 
+Script started, file is plugin
+]0;tchan@acjcm3c: ~/repo/garagetchan@acjcm3c:~/repo/garage$ install httgit push origin mastercommit -m "fixed the context name"[16Ppush origin master[11Pinstall htt[K[K[Kbash: script/plugin: No such file or directory[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K https://github.com/technoweenie/attachment_fu.git
+install: missing destination file operand after `https://github.com/technoweenie/attachment_fu.git'
+Try `install --help' for more information.
+]0;tchan@acjcm3c: ~/repo/garagetchan@acjcm3c:~/repo/garage$ install --help
+Usage: install [OPTION]... [-T] SOURCE DEST
+  or:  install [OPTION]... SOURCE... DIRECTORY
+  or:  install [OPTION]... -t DIRECTORY SOURCE...
+  or:  install [OPTION]... -d DIRECTORY...
+
+This install program copies files (often just compiled) into destination
+locations you choose.  If you want to download and install a ready-to-use
+package on a GNU/Linux system, you should instead be using a package manager
+like yum(1) or apt-get(1).
+
+In the first three forms, copy SOURCE to DEST or multiple SOURCE(s) to
+the existing DIRECTORY, while setting permission modes and owner/group.
+In the 4th form, create all components of the given DIRECTORY(ies).
+
+Mandatory arguments to long options are mandatory for short options too.
+      --backup[=CONTROL]  make a backup of each existing destination file
+  -b                  like --backup but does not accept an argument
+  -c                  (ignored)
+  -C, --compare       compare each pair of source and destination files, and
+                        in some cases, do not modify the destination at all
+  -d, --directory     treat all arguments as directory names; create all
+                        components of the specified directories
+  -D                  create all leading components of DEST except the last,
+                        then copy SOURCE to DEST
+  -g, --group=GROUP   set group ownership, instead of process' current group
+  -m, --mode=MODE     set permission mode (as in chmod), instead of rwxr-xr-x
+  -o, --owner=OWNER   set ownership (super-user only)
+  -p, --preserve-timestamps   apply access/modification times of SOURCE files
+                        to corresponding destination files
+  -s, --strip         strip symbol tables
+      --strip-program=PROGRAM  program used to strip binaries
+  -S, --suffix=SUFFIX  override the usual backup suffix
+  -t, --target-directory=DIRECTORY  copy all SOURCE arguments into DIRECTORY
+  -T, --no-target-directory  treat DEST as a normal file
+  -v, --verbose       print the name of each directory as it is created
+      --preserve-context  preserve SELinux security context
+  -Z, --context=CONTEXT  set SELinux security context of files and directories
+      --help     display this help and exit
+      --version  output version information and exit
+
+The backup suffix is `~', unless set with --suffix or SIMPLE_BACKUP_SUFFIX.
+The version control method may be selected via the --backup option or through
+the VERSION_CONTROL environment variable.  Here are the values:
+
+  none, off       never make backups (even if --backup is given)
+  numbered, t     make numbered backups
+  existing, nil   numbered if numbered backups exist, simple otherwise
+  simple, never   always make simple backups
+
+Report install bugs to bug-coreutils@gnu.org
+GNU coreutils home page: <http://www.gnu.org/software/coreutils/>
+General help using GNU software: <http://www.gnu.org/gethelp/>
+For complete documentation, run: info coreutils 'install invocation'
+]0;tchan@acjcm3c: ~/repo/garagetchan@acjcm3c:~/repo/garage$ ./script/plugin
+bash: ./script/plugin: No such file or directory
+]0;tchan@acjcm3c: ~/repo/garagetchan@acjcm3c:~/repo/garage$ rails plugin install bash: script/plugin: No such file or directory
+[31mCould not find gem 'attachment_fu (>= 0)' in any of the gem sources listed in your Gemfile.[0m
+[33mRun `bundle install` to install missing gems.[0m
+]0;tchan@acjcm3c: ~/repo/garagetchan@acjcm3c:~/repo/garage$ rails plugin install bash: script/plugin: No such file or directory[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K
+[31mCould not find gem 'attachment_fu (>= 0)' in any of the gem sources listed in your Gemfile.[0m
+[33mRun `bundle install` to install missing gems.[0m
+]0;tchan@acjcm3c: ~/repo/garagetchan@acjcm3c:~/repo/garage$ rails plugin install ruby[K[K[K[Khttps://github.com/technoweenie/attachment_fu.git
+[31mCould not find gem 'attachment_fu (>= 0)' in any of the gem sources listed in your Gemfile.[0m
+[33mRun `bundle install` to install missing gems.[0m
+]0;tchan@acjcm3c: ~/repo/garagetchan@acjcm3c:~/repo/garage$ rails plugin install https://github.com/technoweenie/attachment_fu.gitD[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K git://github.com/technoweenie/attachment_fu.git
+[31mCould not find gem 'attachment_fu (>= 0)' in any of the gem sources listed in your Gemfile.[0m
+[33mRun `bundle install` to install missing gems.[0m
+]0;tchan@acjcm3c: ~/repo/garagetchan@acjcm3c:~/repo/garage$ bun[K[K[Krails plugin install git://github.com/technoweenie/attachment_fu.git
+Initialized empty Git repository in /home/tchan/repo/garage/vendor/plugins/attachment_fu/.git/
+remote: Counting objects: 71, done.[K
+remote: Compressing objects:   1% (1/67)   [Kremote: Compressing objects:   2% (2/67)   [Kremote: Compressing objects:   4% (3/67)   [Kremote: Compressing objects:   5% (4/67)   [Kremote: Compressing objects:   7% (5/67)   [Kremote: Compressing objects:   8% (6/67)   [Kremote: Compressing objects:  10% (7/67)   [Kremote: Compressing objects:  11% (8/67)   [Kremote: Compressing objects:  13% (9/67)   [Kremote: Compressing objects:  14% (10/67)   [Kremote: Compressing objects:  16% (11/67)   [Kremote: Compressing objects:  17% (12/67)   [Kremote: Compressing objects:  19% (13/67)   [Kremote: Compressing objects:  20% (14/67)   [Kremote: Compressing objects:  22% (15/67)   [Kremote: Compressing objects:  23% (16/67)   [Kremote: Compressing objects:  25% (17/67)   [Kremote: Compressing objects:  26% (18/67)   [Kremote: Compressing objects:  28% (19/67)   [Kremote: Compressing objects:  29% (20/67)   [Kremote: Compressing objects:  31% (21/67)   [Kremote: Compressing objects:  32% (22/67)   [Kremote: Compressing objects:  34% (23/67)   [Kremote: Compressing objects:  35% (24/67)   [Kremote: Compressing objects:  37% (25/67)   [Kremote: Compressing objects:  38% (26/67)   [Kremote: Compressing objects:  40% (27/67)   [Kremote: Compressing objects:  41% (28/67)   [Kremote: Compressing objects:  43% (29/67)   [Kremote: Compressing objects:  44% (30/67)   [Kremote: Compressing objects:  46% (31/67)   [Kremote: Compressing objects:  47% (32/67)   [Kremote: Compressing objects:  49% (33/67)   [Kremote: Compressing objects:  50% (34/67)   [Kremote: Compressing objects:  52% (35/67)   [Kremote: Compressing objects:  53% (36/67)   [Kremote: Compressing objects:  55% (37/67)   [Kremote: Compressing objects:  56% (38/67)   [Kremote: Compressing objects:  58% (39/67)   [Kremote: Compressing objects:  59% (40/67)   [Kremote: Compressing objects:  61% (41/67)   [Kremote: Compressing objects:  62% (42/67)   [Kremote: Compressing objects:  64% (43/67)   [Kremote: Compressing objects:  65% (44/67)   [Kremote: Compressing objects:  67% (45/67)   [Kremote: Compressing objects:  68% (46/67)   [Kremote: Compressing objects:  70% (47/67)   [Kremote: Compressing objects:  71% (48/67)   [Kremote: Compressing objects:  73% (49/67)   [Kremote: Compressing objects:  74% (50/67)   [Kremote: Compressing objects:  76% (51/67)   [Kremote: Compressing objects:  77% (52/67)   [Kremote: Compressing objects:  79% (53/67)   [Kremote: Compressing objects:  80% (54/67)   [Kremote: Compressing objects:  82% (55/67)   [Kremote: Compressing objects:  83% (56/67)   [Kremote: Compressing objects:  85% (57/67)   [Kremote: Compressing objects:  86% (58/67)   [Kremote: Compressing objects:  88% (59/67)   [Kremote: Compressing objects:  89% (60/67)   [Kremote: Compressing objects:  91% (61/67)   [Kremote: Compressing objects:  92% (62/67)   [Kremote: Compressing objects:  94% (63/67)   [Kremote: Compressing objects:  95% (64/67)   [Kremote: Compressing objects:  97% (65/67)   [Kremote: Compressing objects:  98% (66/67)   [Kremote: Compressing objects: 100% (67/67)   [Kremote: Compressing objects: 100% (67/67), done.[K
+Unpacking objects:   1% (1/71)   Unpacking objects:   2% (2/71)   Unpacking objects:   4% (3/71)   Unpacking objects:   5% (4/71)   Unpacking objects:   7% (5/71)   Unpacking objects:   8% (6/71)   Unpacking objects:   9% (7/71)   Unpacking objects:  11% (8/71)   Unpacking objects:  12% (9/71)   Unpacking objects:  14% (10/71)   Unpacking objects:  15% (11/71)   Unpacking objects:  16% (12/71)   Unpacking objects:  18% (13/71)   Unpacking objects:  19% (14/71)   Unpacking objects:  21% (15/71)   Unpacking objects:  22% (16/71)   Unpacking objects:  23% (17/71)   Unpacking objects:  25% (18/71)   Unpacking objects:  26% (19/71)   Unpacking objects:  28% (20/71)   Unpacking objects:  29% (21/71)   Unpacking objects:  30% (22/71)   Unpacking objects:  32% (23/71)   Unpacking objects:  33% (24/71)   Unpacking objects:  35% (25/71)   Unpacking objects:  36% (26/71)   Unpacking objects:  38% (27/71)   Unpacking objects:  39% (28/71)   Unpacking objects:  40% (29/71)   Unpacking objects:  42% (30/71)   Unpacking objects:  43% (31/71)   Unpacking objects:  45% (32/71)   Unpacking objects:  46% (33/71)   Unpacking objects:  47% (34/71)   Unpacking objects:  49% (35/71)   Unpacking objects:  50% (36/71)   Unpacking objects:  52% (37/71)   Unpacking objects:  53% (38/71)   Unpacking objects:  54% (39/71)   Unpacking objects:  56% (40/71)   Unpacking objects:  57% (41/71)   Unpacking objects:  59% (42/71)   Unpacking objects:  60% (43/71)   Unpacking objects:  61% (44/71)   Unpacking objects:  63% (45/71)   Unpacking objects:  64% (46/71)   Unpacking objects:  66% (47/71)   Unpacking objects:  67% (48/71)   Unpacking objects:  69% (49/71)   Unpacking objects:  70% (50/71)   Unpacking objects:  71% (51/71)   Unpacking objects:  73% (52/71)   Unpacking objects:  74% (53/71)   Unpacking objects:  76% (54/71)   remote: Total 71 (delta 11), reused 35 (delta 0)[K
+Unpacking objects:  77% (55/71)   Unpacking objects:  78% (56/71)   Unpacking objects:  80% (57/71)   Unpacking objects:  81% (58/71)   Unpacking objects:  83% (59/71)   Unpacking objects:  84% (60/71)   Unpacking objects:  85% (61/71)   Unpacking objects:  87% (62/71)   Unpacking objects:  88% (63/71)   Unpacking objects:  90% (64/71)   Unpacking objects:  91% (65/71)   Unpacking objects:  92% (66/71)   Unpacking objects:  94% (67/71)   Unpacking objects:  95% (68/71)   Unpacking objects:  97% (69/71)   Unpacking objects:  98% (70/71)   Unpacking objects: 100% (71/71)   Unpacking objects: 100% (71/71), done.
+From git://github.com/technoweenie/attachment_fu
+ * branch            HEAD       -> FETCH_HEAD
+attachment-fu
+=============
+
+attachment_fu is a plugin by Rick Olson (aka technoweenie <http://techno-weenie.net>) and is the successor to acts_as_attachment.  To get a basic run-through of its capabilities, check out Mike Clark's tutorial <http://clarkware.com/cgi/blosxom/2007/02/24#FileUploadFu>.
+
+
+attachment_fu functionality
+===========================
+
+attachment_fu facilitates file uploads in Ruby on Rails.  There are a few storage options for the actual file data, but the plugin always at a minimum stores metadata for each file in the database.
+
+There are four storage options for files uploaded through attachment_fu:
+  File system
+  Database file
+  Amazon S3
+  Rackspace (Mosso) Cloud Files
+
+Each method of storage many options associated with it that will be covered in the following section.  Something to note, however, is that the Amazon S3 storage requires you to modify config/amazon_s3.yml, the Rackspace Cloud Files storage requires you to modify config/rackspace_cloudfiles.yml, and the Database file storage requires an extra table.
+
+
+attachment_fu models
+====================
+
+For all three of these storage options a table of metadata is required.  This table will contain information about the file (hence the 'meta') and its location.  This table has no restrictions on naming, unlike the extra table required for database storage, which must have a table name of db_files (and by convention a model of DbFile).
+  
+In the model there are two methods made available by this plugins: has_attachment and validates_as_attachment.
+
+has_attachment(options = {})
+  This method accepts the options in a hash:
+    :content_type     # Allowed content types.
+                      # Allows all by default.  Use :image to allow all standard image types.
+    :min_size         # Minimum size allowed.
+                      # 1 byte is the default.
+    :max_size         # Maximum size allowed.
+                      # 1.megabyte is the default.
+    :size             # Range of sizes allowed.
+                      # (1..1.megabyte) is the default.  This overrides the :min_size and :max_size options.
+    :resize_to        # Used by RMagick to resize images.
+                      # Pass either an array of width/height, or a geometry string.
+    :thumbnails       # Specifies a set of thumbnails to generate.
+                      # This accepts a hash of filename suffixes and RMagick resizing options.
+                      # This option need only be included if you want thumbnailing.
+    :thumbnail_class  # Set which model class to use for thumbnails.
+                      # This current attachment class is used by default.
+    :path_prefix      # Path to store the uploaded files in.
+                      # Uses public/#{table_name} by default for the filesystem, and just #{table_name} for the S3 and Cloud Files backend.  
+                      # Setting this sets the :storage to :file_system.
+    :partition        # Whether to partiton files in directories like /0000/0001/image.jpg. Default is true. Only applicable to the :file_system backend.
+    :storage          # Specifies the storage system to use..
+                      # Defaults to :db_file.  Options are :file_system, :db_file, :s3, and :cloud_files.
+    :cloudfront       # If using S3 for storage, this option allows for serving the files via Amazon CloudFront.
+                      # Defaults to false.
+    :processor        # Sets the image processor to use for resizing of the attached image.
+                      # Options include ImageScience, Rmagick, and MiniMagick.  Default is whatever is installed.
+    :uuid_primary_key # If your model's primary key is a 128-bit UUID in hexadecimal format, then set this to true.
+    :association_options  # attachment_fu automatically defines associations with thumbnails with has_many and belongs_to. If there are any additional options that you want to pass to these methods, then specify them here.
+    
+
+  Examples:
+    has_attachment :max_size => 1.kilobyte
+    has_attachment :size => 1.megabyte..2.megabytes
+    has_attachment :content_type => 'application/pdf'
+    has_attachment :content_type => ['application/pdf', 'application/msword', 'text/plain']
+    has_attachment :content_type => :image, :resize_to => [50,50]
+    has_attachment :content_type => ['application/pdf', :image], :resize_to => 'x50'
+    has_attachment :thumbnails => { :thumb => [50, 50], :geometry => 'x50' }
+    has_attachment :storage => :file_system, :path_prefix => 'public/files'
+    has_attachment :storage => :file_system, :path_prefix => 'public/files', 
+                   :content_type => :image, :resize_to => [50,50], :partition => false
+    has_attachment :storage => :file_system, :path_prefix => 'public/files',
+                   :thumbnails => { :thumb => [50, 50], :geometry => 'x50' }
+    has_attachment :storage => :s3
+    has_attachment :store => :s3, :cloudfront => true
+    has_attachment :storage => :cloud_files
+
+validates_as_attachment
+  This method prevents files outside of the valid range (:min_size to :max_size, or the :size range) from being saved.  It does not however, halt the upload of such files.  They will be uploaded into memory regardless of size before validation.
+  
+  Example:
+    validates_as_attachment
+
+
+attachment_fu migrations
+========================
+
+Fields for attachment_fu metadata tables...
+  in general:
+    size,         :integer  # file size in bytes
+    content_type, :string   # mime type, ex: application/mp3
+    filename,     :string   # sanitized filename
+  that reference images:
+    height,       :integer  # in pixels
+    width,        :integer  # in pixels
+  that reference images that will be thumbnailed:
+    parent_id,    :integer  # id of parent image (on the same table, a self-referencing foreign-key).
+                            # Only populated if the current object is a thumbnail.
+    thumbnail,    :string   # the 'type' of thumbnail this attachment record describes.  
+                            # Only populated if the current object is a thumbnail.
+                            # Usage:
+                            # [ In Model 'Avatar' ]
+                            #   has_attachment :content_type => :image, 
+                            #                  :storage => :file_system, 
+                            #                  :max_size => 500.kilobytes,
+                            #                  :resize_to => '320x200>',
+                            #                  :thumbnails => { :small => '10x10>',
+                            #                                   :thumb => '100x100>' }
+                            # [ Elsewhere ]
+                            # @user.avatar.thumbnails.first.thumbnail #=> 'small'
+  that reference files stored in the database (:db_file):
+    db_file_id,   :integer  # id of the file in the database (foreign key)
+    
+Field for attachment_fu db_files table:
+  data, :binary # binary file data, for use in database file storage
+
+
+attachment_fu views
+===================
+
+There are two main views tasks that will be directly affected by attachment_fu: upload forms and displaying uploaded images.
+
+There are two parts of the upload form that differ from typical usage.
+  1. Include ':multipart => true' in the html options of the form_for tag.
+    Example:
+      <% form_for(:attachment_metadata, :url => { :action => "create" }, :html => { :multipart => true }) do |form| %>
+      
+  2. Use the file_field helper with :uploaded_data as the field name.
+    Example:
+      <%= form.file_field :uploaded_data %>
+
+Displaying uploaded images is made easy by the public_filename method of the ActiveRecord attachment objects using file system, s3, and Cloud Files storage.
+
+public_filename(thumbnail = nil)
+  Returns the public path to the file.  If a thumbnail prefix is specified it will return the public file path to the corresponding thumbnail.
+  Examples:
+    attachment_obj.public_filename          #=> /attachments/2/file.jpg
+    attachment_obj.public_filename(:thumb)  #=> /attachments/2/file_thumb.jpg
+    attachment_obj.public_filename(:small)  #=> /attachments/2/file_small.jpg
+
+When serving files from database storage, doing more than simply downloading the file is beyond the scope of this document.
+
+
+attachment_fu controllers
+=========================
+
+There are two considerations to take into account when using attachment_fu in controllers.
+
+The first is when the files have no publicly accessible path and need to be downloaded through an action.
+
+Example:
+  def readme
+    send_file '/path/to/readme.txt', :type => 'plain/text', :disposition => 'inline'
+  end
+  
+See the possible values for send_file for reference.
+
+
+The second is when saving the file when submitted from a form.
+Example in view:
+ <%= form.file_field :attachable, :uploaded_data %>
+
+Example in controller:
+  def create
+    @attachable_file = AttachmentMetadataModel.new(params[:attachable])
+    if @attachable_file.save
+      flash[:notice] = 'Attachment was successfully created.'
+      redirect_to attachable_url(@attachable_file)     
+    else
+      render :action => :new
+    end
+  end
+
+attachement_fu scripting
+====================================
+
+You may wish to import a large number of images or attachments. 
+The following example shows how to upload a file from a script. 
+
+#!/usr/bin/env ./script/runner
+
+# required to use ActionController::TestUploadedFile 
+require 'action_controller'
+require 'action_controller/test_process.rb'
+
+path = "./public/images/x.jpg"
+
+# mimetype is a string like "image/jpeg". One way to get the mimetype for a given file on a UNIX system
+# mimetype = `file -ib #{path}`.gsub(/\n/,"")
+
+mimetype = "image/jpeg"
+
+# This will "upload" the file at path and create the new model.
+@attachable = AttachmentMetadataModel.new(:uploaded_data => ActionController::TestUploadedFile.new(path, mimetype))
+@attachable.save
+]0;tchan@acjcm3c: ~/repo/garagetchan@acjcm3c:~/repo/garage$ lsl[K -la
+total 124
+drwxr-xr-x 15 tchan tchan  4096 2011-10-03 18:40 [0m[01;34m.[0m
+drwxr-xr-x 20 tchan root   4096 2011-09-26 12:11 [01;34m..[0m
+drwxr-xr-x  7 tchan tchan  4096 2011-09-21 20:28 [01;34mapp[0m
+drwxr-xr-x  5 tchan tchan  4096 2011-10-03 18:45 [01;34mconfig[0m
+-rw-r--r--  1 tchan tchan   156 2011-09-21 20:28 config.ru
+drwxr-xr-x  3 tchan tchan  4096 2011-10-02 19:31 [01;34mdb[0m
+drwxr-xr-x  2 tchan tchan  4096 2011-09-21 20:28 [01;34mdoc[0m
+-rw-r--r--  1 tchan tchan   902 2011-10-03 18:45 Gemfile
+-rw-r--r--  1 tchan tchan  1924 2011-10-03 18:45 Gemfile.lock
+drwxr-xr-x  8 tchan tchan  4096 2011-10-03 08:22 [01;34m.git[0m
+-rw-r--r--  1 tchan tchan    12 2011-09-22 20:31 .gitignore
+drwxr-xr-x  3 tchan tchan  4096 2011-09-21 20:28 [01;34mlib[0m
+drwxr-xr-x  2 tchan tchan  4096 2011-09-22 08:23 [01;34mlog[0m
+drwxr-xr-x  3 tchan tchan  4096 2011-09-21 20:28 [01;34mnbproject[0m
+-rw-r--r--  1 tchan tchan 20480 2011-10-03 18:45 plugin
+drwxr-xr-x  5 tchan tchan  4096 2011-09-22 20:22 [01;34mpublic[0m
+-rw-r--r--  1 tchan tchan   266 2011-09-21 20:28 Rakefile
+-rw-r--r--  1 tchan tchan    11 2011-09-21 20:28 README
+drwxr-xr-x  2 tchan tchan  4096 2011-09-21 20:28 [01;34mscript[0m
+drwxr-xr-x  7 tchan tchan  4096 2011-09-21 20:28 [01;34mtest[0m
+drwxr-xr-x  6 tchan tchan  4096 2011-09-21 20:28 [01;34mtmp[0m
+-rw-r--r--  1 tchan tchan 20480 2011-10-03 18:45 typescript
+drwxr-xr-x  3 tchan tchan  4096 2011-09-21 20:28 [01;34mvendor[0m
+]0;tchan@acjcm3c: ~/repo/garagetchan@acjcm3c:~/repo/garage$ cd vn[K[Kscript/
+]0;tchan@acjcm3c: ~/repo/garage/scripttchan@acjcm3c:~/repo/garage/script$ ls -la
+total 12
+drwxr-xr-x  2 tchan tchan 4096 2011-09-21 20:28 [0m[01;34m.[0m
+drwxr-xr-x 15 tchan tchan 4096 2011-10-03 18:40 [01;34m..[0m
+-rwxr-xr-x  1 tchan tchan  295 2011-09-21 20:28 [01;32mrails[0m
+]0;tchan@acjcm3c: ~/repo/garage/scripttchan@acjcm3c:~/repo/garage/script$ cd ../[K
+]0;tchan@acjcm3c: ~/repo/garagetchan@acjcm3c:~/repo/garage$ cd vendor/
+]0;tchan@acjcm3c: ~/repo/garage/vendortchan@acjcm3c:~/repo/garage/vendor$ ls -la
+total 12
+drwxr-xr-x  3 tchan tchan 4096 2011-09-21 20:28 [0m[01;34m.[0m
+drwxr-xr-x 15 tchan tchan 4096 2011-10-03 18:40 [01;34m..[0m
+drwxr-xr-x  4 tchan tchan 4096 2011-10-03 18:45 [01;34mplugins[0m
+]0;tchan@acjcm3c: ~/repo/garage/vendortchan@acjcm3c:~/repo/garage/vendor$ cd plugins/
+]0;tchan@acjcm3c: ~/repo/garage/vendor/pluginstchan@acjcm3c:~/repo/garage/vendor/plugins$ ls -la
+total 16
+drwxr-xr-x 4 tchan tchan 4096 2011-10-03 18:45 [0m[01;34m.[0m
+drwxr-xr-x 3 tchan tchan 4096 2011-09-21 20:28 [01;34m..[0m
+drwxr-xr-x 5 tchan tchan 4096 2011-10-03 18:45 [01;34mattachment_fu[0m
+drwxr-xr-x 4 tchan tchan 4096 2011-10-02 21:47 [01;34mdynamic_form[0m
+-rw-r--r-- 1 tchan tchan    0 2011-09-21 20:28 .gitkeep
+]0;tchan@acjcm3c: ~/repo/garage/vendor/pluginstchan@acjcm3c:~/repo/garage/vendor/plugins$ D[Kcd ../
+]0;tchan@acjcm3c: ~/repo/garage/vendortchan@acjcm3c:~/repo/garage/vendor$ cd ../
+]0;tchan@acjcm3c: ~/repo/garagetchan@acjcm3c:~/repo/garage$ rails server
+[31mCould not find gem 'attachment_fu (>= 0)' in any of the gem sources listed in your Gemfile.[0m
+[33mRun `bundle install` to install missing gems.[0m
+]0;tchan@acjcm3c: ~/repo/garagetchan@acjcm3c:~/repo/garage$ rails server
+=> Booting WEBrick
+=> Rails 3.0.10 application starting in development on http://0.0.0.0:3000
+=> Call with -d to detach
+=> Ctrl-C to shutdown server
+[2011-10-03 18:46:39] INFO  WEBrick 1.3.1
+[2011-10-03 18:46:39] INFO  ruby 1.9.2 (2011-07-09) [x86_64-linux]
+[2011-10-03 18:46:39] INFO  WEBrick::HTTPServer#start: pid=719 port=3000
+^C[2011-10-03 18:50:05] INFO  going to shutdown ...
+[2011-10-03 18:50:05] INFO  WEBrick::HTTPServer#start done.
+Exiting
+]0;tchan@acjcm3c: ~/repo/garagetchan@acjcm3c:~/repo/garage$ rails server
+=> Booting WEBrick
+=> Rails 3.0.10 application starting in development on http://0.0.0.0:3000
+=> Call with -d to detach
+=> Ctrl-C to shutdown server
+[2011-10-03 18:50:08] INFO  WEBrick 1.3.1
+[2011-10-03 18:50:08] INFO  ruby 1.9.2 (2011-07-09) [x86_64-linux]
+[2011-10-03 18:50:08] INFO  WEBrick::HTTPServer#start: pid=733 port=3000
+
+
+Started GET "/listings" for 127.0.0.1 at 2011-10-03 18:50:18 -0700
+  Processing by ListingsController#index as HTML
+  [1m[36mListing Load (2.3ms)[0m  [1mSELECT "listings".* FROM "listings"[0m
+Rendered /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/gmaps4rails-1.0.2/app/views/gmaps4rails/_gmaps4rails.html.erb (1.6ms)
+Rendered listings/index.html.erb within layouts/application (68.0ms)
+Completed 200 OK in 201ms (Views: 73.3ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/javascripts/jquery.js" for 127.0.0.1 at 2011-10-03 18:50:19 -0700
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.js"):
+  
+
+Rendered /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/javascripts/jquery.js" for 127.0.0.1 at 2011-10-03 18:50:19 -0700
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.js"):
+  
+
+Rendered /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+Error during failsafe response: ActionView::Template::Error
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.0.10/lib/active_support/whiny_nil.rb:48:in `method_missing'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_dispatch/http/parameters.rb:10:in `parameters'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb:3:in `__home_tchan__rvm_gems_ruby_______p____gems_actionpack________lib_action_dispatch_middleware_templates_rescues_diagnostics_erb___2720706136683630046_26457800_1290077072252031706'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_view/template.rb:135:in `block in render'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.0.10/lib/active_support/notifications.rb:54:in `instrument'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_view/template.rb:127:in `render'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_view/render/rendering.rb:59:in `block in _render_template'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.0.10/lib/active_support/notifications.rb:52:in `block in instrument'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.0.10/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.0.10/lib/active_support/notifications.rb:52:in `instrument'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_view/render/rendering.rb:56:in `_render_template'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_view/render/rendering.rb:26:in `render'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_dispatch/middleware/show_exceptions.rb:88:in `rescue_action_locally'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_dispatch/middleware/show_exceptions.rb:68:in `render_exception'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_dispatch/middleware/show_exceptions.rb:59:in `call'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/railties-3.0.10/lib/rails/rack/logger.rb:13:in `call'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/rack-1.2.3/lib/rack/runtime.rb:17:in `call'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.0.10/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/rack-1.2.3/lib/rack/lock.rb:11:in `block in call'
+  <internal:prelude>:10:in `synchronize'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/rack-1.2.3/lib/rack/lock.rb:11:in `call'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_dispatch/middleware/static.rb:30:in `call'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/railties-3.0.10/lib/rails/application.rb:168:in `call'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/railties-3.0.10/lib/rails/application.rb:77:in `method_missing'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/railties-3.0.10/lib/rails/rack/log_tailer.rb:14:in `call'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/rack-1.2.3/lib/rack/content_length.rb:13:in `call'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/rack-1.2.3/lib/rack/handler/webrick.rb:52:in `service'
+  /home/tchan/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /home/tchan/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /home/tchan/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+Started POST "/listings" for 127.0.0.1 at 2011-10-03 18:50:33 -0700
+
+TypeError (can't convert nil into Integer):
+  
+
+Rendered /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (16.5ms)
+^C[2011-10-03 19:18:36] INFO  going to shutdown ...
+[2011-10-03 19:18:36] INFO  WEBrick::HTTPServer#start done.
+Exiting
+]0;tchan@acjcm3c: ~/repo/garagetchan@acjcm3c:~/repo/garage$ rails server
+=> Booting WEBrick
+=> Rails 3.0.10 application starting in development on http://0.0.0.0:3000
+=> Call with -d to detach
+=> Ctrl-C to shutdown server
+[2011-10-03 19:18:39] INFO  WEBrick 1.3.1
+[2011-10-03 19:18:39] INFO  ruby 1.9.2 (2011-07-09) [x86_64-linux]
+[2011-10-03 19:18:39] INFO  WEBrick::HTTPServer#start: pid=2117 port=3000
+
+
+Started GET "/listings" for 127.0.0.1 at 2011-10-03 19:18:52 -0700
+  Processing by ListingsController#index as HTML
+  [1m[36mListing Load (2.5ms)[0m  [1mSELECT "listings".* FROM "listings"[0m
+Rendered /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/gmaps4rails-1.0.2/app/views/gmaps4rails/_gmaps4rails.html.erb (1.7ms)
+Rendered listings/index.html.erb within layouts/application (47.0ms)
+Completed 200 OK in 135ms (Views: 50.1ms | ActiveRecord: 2.5ms)
+
+
+Started GET "/javascripts/jquery.js" for 127.0.0.1 at 2011-10-03 19:18:52 -0700
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.js"):
+  
+
+Rendered /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/javascripts/jquery.js" for 127.0.0.1 at 2011-10-03 19:18:52 -0700
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.js"):
+  
+
+Rendered /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+Error during failsafe response: ActionView::Template::Error
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.0.10/lib/active_support/whiny_nil.rb:48:in `method_missing'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_dispatch/http/parameters.rb:10:in `parameters'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb:3:in `__home_tchan__rvm_gems_ruby_______p____gems_actionpack________lib_action_dispatch_middleware_templates_rescues_diagnostics_erb___1375765808069662611_28454600_4218577307457719266'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_view/template.rb:135:in `block in render'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.0.10/lib/active_support/notifications.rb:54:in `instrument'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_view/template.rb:127:in `render'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_view/render/rendering.rb:59:in `block in _render_template'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.0.10/lib/active_support/notifications.rb:52:in `block in instrument'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.0.10/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.0.10/lib/active_support/notifications.rb:52:in `instrument'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_view/render/rendering.rb:56:in `_render_template'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_view/render/rendering.rb:26:in `render'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_dispatch/middleware/show_exceptions.rb:88:in `rescue_action_locally'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_dispatch/middleware/show_exceptions.rb:68:in `render_exception'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_dispatch/middleware/show_exceptions.rb:59:in `call'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/railties-3.0.10/lib/rails/rack/logger.rb:13:in `call'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/rack-1.2.3/lib/rack/runtime.rb:17:in `call'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.0.10/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/rack-1.2.3/lib/rack/lock.rb:11:in `block in call'
+  <internal:prelude>:10:in `synchronize'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/rack-1.2.3/lib/rack/lock.rb:11:in `call'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_dispatch/middleware/static.rb:30:in `call'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/railties-3.0.10/lib/rails/application.rb:168:in `call'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/railties-3.0.10/lib/rails/application.rb:77:in `method_missing'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/railties-3.0.10/lib/rails/rack/log_tailer.rb:14:in `call'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/rack-1.2.3/lib/rack/content_length.rb:13:in `call'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/rack-1.2.3/lib/rack/handler/webrick.rb:52:in `service'
+  /home/tchan/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /home/tchan/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /home/tchan/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+Started POST "/listings" for 127.0.0.1 at 2011-10-03 19:18:56 -0700
+
+TypeError (can't convert nil into Integer):
+  
+
+Rendered /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (35.3ms)
+Error during failsafe response: ActionView::Template::Error
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.0.10/lib/active_support/whiny_nil.rb:48:in `method_missing'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_dispatch/http/parameters.rb:10:in `parameters'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb:3:in `__home_tchan__rvm_gems_ruby_______p____gems_actionpack________lib_action_dispatch_middleware_templates_rescues_diagnostics_erb___1375765808069662611_34646400_4218577307457719266'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_view/template.rb:135:in `block in render'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.0.10/lib/active_support/notifications.rb:54:in `instrument'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_view/template.rb:127:in `render'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_view/render/rendering.rb:59:in `block in _render_template'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.0.10/lib/active_support/notifications.rb:52:in `block in instrument'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.0.10/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.0.10/lib/active_support/notifications.rb:52:in `instrument'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_view/render/rendering.rb:56:in `_render_template'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_view/render/rendering.rb:26:in `render'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_dispatch/middleware/show_exceptions.rb:88:in `rescue_action_locally'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_dispatch/middleware/show_exceptions.rb:68:in `render_exception'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_dispatch/middleware/show_exceptions.rb:59:in `call'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/railties-3.0.10/lib/rails/rack/logger.rb:13:in `call'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/rack-1.2.3/lib/rack/runtime.rb:17:in `call'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.0.10/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/rack-1.2.3/lib/rack/lock.rb:11:in `block in call'
+  <internal:prelude>:10:in `synchronize'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/rack-1.2.3/lib/rack/lock.rb:11:in `call'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_dispatch/middleware/static.rb:30:in `call'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/railties-3.0.10/lib/rails/application.rb:168:in `call'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/railties-3.0.10/lib/rails/application.rb:77:in `method_missing'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/railties-3.0.10/lib/rails/rack/log_tailer.rb:14:in `call'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/rack-1.2.3/lib/rack/content_length.rb:13:in `call'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/rack-1.2.3/lib/rack/handler/webrick.rb:52:in `service'
+  /home/tchan/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /home/tchan/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /home/tchan/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+Started POST "/listings" for 127.0.0.1 at 2011-10-03 19:19:40 -0700
+
+TypeError (can't convert nil into Integer):
+  
+
+Rendered /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (1.2ms)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Error during failsafe response: ActionView::Template::Error
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.0.10/lib/active_support/whiny_nil.rb:48:in `method_missing'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_dispatch/http/parameters.rb:10:in `parameters'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb:3:in `__home_tchan__rvm_gems_ruby_______p____gems_actionpack________lib_action_dispatch_middleware_templates_rescues_diagnostics_erb___1375765808069662611_32931520_4218577307457719266'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_view/template.rb:135:in `block in render'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.0.10/lib/active_support/notifications.rb:54:in `instrument'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_view/template.rb:127:in `render'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_view/render/rendering.rb:59:in `block in _render_template'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.0.10/lib/active_support/notifications.rb:52:in `block in instrument'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.0.10/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.0.10/lib/active_support/notifications.rb:52:in `instrument'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_view/render/rendering.rb:56:in `_render_template'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_view/render/rendering.rb:26:in `render'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_dispatch/middleware/show_exceptions.rb:88:in `rescue_action_locally'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_dispatch/middleware/show_exceptions.rb:68:in `render_exception'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_dispatch/middleware/show_exceptions.rb:59:in `call'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/railties-3.0.10/lib/rails/rack/logger.rb:13:in `call'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/rack-1.2.3/lib/rack/runtime.rb:17:in `call'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.0.10/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/rack-1.2.3/lib/rack/lock.rb:11:in `block in call'
+  <internal:prelude>:10:in `synchronize'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/rack-1.2.3/lib/rack/lock.rb:11:in `call'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_dispatch/middleware/static.rb:30:in `call'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/railties-3.0.10/lib/rails/application.rb:168:in `call'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/railties-3.0.10/lib/rails/application.rb:77:in `method_missing'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/railties-3.0.10/lib/rails/rack/log_tailer.rb:14:in `call'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/rack-1.2.3/lib/rack/content_length.rb:13:in `call'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/rack-1.2.3/lib/rack/handler/webrick.rb:52:in `service'
+  /home/tchan/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /home/tchan/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /home/tchan/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+Started POST "/listings" for 127.0.0.1 at 2011-10-03 19:19:51 -0700
+
+TypeError (can't convert nil into Integer):
+  
+
+Rendered /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (0.6ms)
+
+
+Started GET "/listings" for 127.0.0.1 at 2011-10-03 19:20:41 -0700
+  Processing by ListingsController#index as HTML
+  [1m[35mListing Load (2.2ms)[0m  SELECT "listings".* FROM "listings"
+Rendered /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/gmaps4rails-1.0.2/app/views/gmaps4rails/_gmaps4rails.html.erb (1.5ms)
+Rendered listings/index.html.erb within layouts/application (11.7ms)
+Completed 200 OK in 45ms (Views: 14.6ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/javascripts/jquery.js" for 127.0.0.1 at 2011-10-03 19:20:41 -0700
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.js"):
+  
+
+Rendered /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+Error during failsafe response: ActionView::Template::Error
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.0.10/lib/active_support/whiny_nil.rb:48:in `method_missing'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_dispatch/http/parameters.rb:10:in `parameters'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb:3:in `__home_tchan__rvm_gems_ruby_______p____gems_actionpack________lib_action_dispatch_middleware_templates_rescues_diagnostics_erb___1375765808069662611_36825580_4218577307457719266'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_view/template.rb:135:in `block in render'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.0.10/lib/active_support/notifications.rb:54:in `instrument'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_view/template.rb:127:in `render'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_view/render/rendering.rb:59:in `block in _render_template'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.0.10/lib/active_support/notifications.rb:52:in `block in instrument'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.0.10/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.0.10/lib/active_support/notifications.rb:52:in `instrument'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_view/render/rendering.rb:56:in `_render_template'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_view/render/rendering.rb:26:in `render'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_dispatch/middleware/show_exceptions.rb:88:in `rescue_action_locally'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_dispatch/middleware/show_exceptions.rb:68:in `render_exception'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_dispatch/middleware/show_exceptions.rb:59:in `call'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/railties-3.0.10/lib/rails/rack/logger.rb:13:in `call'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/rack-1.2.3/lib/rack/runtime.rb:17:in `call'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.0.10/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/rack-1.2.3/lib/rack/lock.rb:11:in `block in call'
+  <internal:prelude>:10:in `synchronize'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/rack-1.2.3/lib/rack/lock.rb:11:in `call'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_dispatch/middleware/static.rb:30:in `call'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/railties-3.0.10/lib/rails/application.rb:168:in `call'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/railties-3.0.10/lib/rails/application.rb:77:in `method_missing'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/railties-3.0.10/lib/rails/rack/log_tailer.rb:14:in `call'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/rack-1.2.3/lib/rack/content_length.rb:13:in `call'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/rack-1.2.3/lib/rack/handler/webrick.rb:52:in `service'
+  /home/tchan/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /home/tchan/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /home/tchan/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+Started POST "/listings" for 127.0.0.1 at 2011-10-03 19:20:44 -0700
+
+TypeError (can't convert nil into Integer):
+  
+
+Rendered /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (0.6ms)
+
+
+Started GET "/listings" for 127.0.0.1 at 2011-10-03 19:21:35 -0700
+  Processing by ListingsController#index as HTML
+  [1m[36mListing Load (20.0ms)[0m  [1mSELECT "listings".* FROM "listings"[0m
+Rendered /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/gmaps4rails-1.0.2/app/views/gmaps4rails/_gmaps4rails.html.erb (1.5ms)
+Rendered listings/index.html.erb within layouts/application (12.7ms)
+Completed 200 OK in 51ms (Views: 15.6ms | ActiveRecord: 20.0ms)
+
+
+Started GET "/javascripts/jquery.js" for 127.0.0.1 at 2011-10-03 19:21:35 -0700
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.js"):
+  
+
+Rendered /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/javascripts/jquery.js" for 127.0.0.1 at 2011-10-03 19:21:35 -0700
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.js"):
+  
+
+Rendered /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+Error during failsafe response: ActionView::Template::Error
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.0.10/lib/active_support/whiny_nil.rb:48:in `method_missing'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_dispatch/http/parameters.rb:10:in `parameters'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb:3:in `__home_tchan__rvm_gems_ruby_______p____gems_actionpack________lib_action_dispatch_middleware_templates_rescues_diagnostics_erb___1375765808069662611_27880540_4218577307457719266'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_view/template.rb:135:in `block in render'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.0.10/lib/active_support/notifications.rb:54:in `instrument'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_view/template.rb:127:in `render'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_view/render/rendering.rb:59:in `block in _render_template'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.0.10/lib/active_support/notifications.rb:52:in `block in instrument'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.0.10/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.0.10/lib/active_support/notifications.rb:52:in `instrument'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_view/render/rendering.rb:56:in `_render_template'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_view/render/rendering.rb:26:in `render'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_dispatch/middleware/show_exceptions.rb:88:in `rescue_action_locally'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_dispatch/middleware/show_exceptions.rb:68:in `render_exception'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_dispatch/middleware/show_exceptions.rb:59:in `call'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/railties-3.0.10/lib/rails/rack/logger.rb:13:in `call'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/rack-1.2.3/lib/rack/runtime.rb:17:in `call'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.0.10/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/rack-1.2.3/lib/rack/lock.rb:11:in `block in call'
+  <internal:prelude>:10:in `synchronize'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/rack-1.2.3/lib/rack/lock.rb:11:in `call'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_dispatch/middleware/static.rb:30:in `call'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/railties-3.0.10/lib/rails/application.rb:168:in `call'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/railties-3.0.10/lib/rails/application.rb:77:in `method_missing'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/railties-3.0.10/lib/rails/rack/log_tailer.rb:14:in `call'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/rack-1.2.3/lib/rack/content_length.rb:13:in `call'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/rack-1.2.3/lib/rack/handler/webrick.rb:52:in `service'
+  /home/tchan/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /home/tchan/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /home/tchan/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+Started POST "/listings" for 127.0.0.1 at 2011-10-03 19:21:38 -0700
+
+TypeError (can't convert nil into Integer):
+  
+
+Rendered /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (0.6ms)
+^C[2011-10-03 19:26:42] INFO  going to shutdown ...
+[2011-10-03 19:26:42] INFO  WEBrick::HTTPServer#start done.
+Exiting
+]0;tchan@acjcm3c: ~/repo/garagetchan@acjcm3c:~/repo/garage$ rails server
+=> Booting WEBrick
+=> Rails 3.0.10 application starting in development on http://0.0.0.0:3000
+=> Call with -d to detach
+=> Ctrl-C to shutdown server
+[2011-10-03 19:26:45] INFO  WEBrick 1.3.1
+[2011-10-03 19:26:45] INFO  ruby 1.9.2 (2011-07-09) [x86_64-linux]
+[2011-10-03 19:26:45] INFO  WEBrick::HTTPServer#start: pid=2225 port=3000
+
+
+Started GET "/listings" for 127.0.0.1 at 2011-10-03 19:26:50 -0700
+  Processing by ListingsController#index as HTML
+  [1m[36mListing Load (2.6ms)[0m  [1mSELECT "listings".* FROM "listings"[0m
+Rendered /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/gmaps4rails-1.0.2/app/views/gmaps4rails/_gmaps4rails.html.erb (1.6ms)
+Rendered listings/index.html.erb within layouts/application (47.3ms)
+Completed 200 OK in 137ms (Views: 50.4ms | ActiveRecord: 2.6ms)
+
+
+Started GET "/javascripts/jquery.js" for 127.0.0.1 at 2011-10-03 19:26:50 -0700
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.js"):
+  
+
+Rendered /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/javascripts/jquery.js" for 127.0.0.1 at 2011-10-03 19:26:50 -0700
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.js"):
+  
+
+Rendered /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+Error during failsafe response: ActionView::Template::Error
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.0.10/lib/active_support/whiny_nil.rb:48:in `method_missing'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_dispatch/http/parameters.rb:10:in `parameters'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb:3:in `__home_tchan__rvm_gems_ruby_______p____gems_actionpack________lib_action_dispatch_middleware_templates_rescues_diagnostics_erb__3269172846920362047_27515400_3416591318505336139'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_view/template.rb:135:in `block in render'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.0.10/lib/active_support/notifications.rb:54:in `instrument'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_view/template.rb:127:in `render'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_view/render/rendering.rb:59:in `block in _render_template'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.0.10/lib/active_support/notifications.rb:52:in `block in instrument'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.0.10/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.0.10/lib/active_support/notifications.rb:52:in `instrument'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_view/render/rendering.rb:56:in `_render_template'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_view/render/rendering.rb:26:in `render'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_dispatch/middleware/show_exceptions.rb:88:in `rescue_action_locally'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_dispatch/middleware/show_exceptions.rb:68:in `render_exception'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_dispatch/middleware/show_exceptions.rb:59:in `call'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/railties-3.0.10/lib/rails/rack/logger.rb:13:in `call'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/rack-1.2.3/lib/rack/runtime.rb:17:in `call'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.0.10/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/rack-1.2.3/lib/rack/lock.rb:11:in `block in call'
+  <internal:prelude>:10:in `synchronize'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/rack-1.2.3/lib/rack/lock.rb:11:in `call'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_dispatch/middleware/static.rb:30:in `call'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/railties-3.0.10/lib/rails/application.rb:168:in `call'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/railties-3.0.10/lib/rails/application.rb:77:in `method_missing'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/railties-3.0.10/lib/rails/rack/log_tailer.rb:14:in `call'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/rack-1.2.3/lib/rack/content_length.rb:13:in `call'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/rack-1.2.3/lib/rack/handler/webrick.rb:52:in `service'
+  /home/tchan/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /home/tchan/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /home/tchan/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+Started POST "/listings" for 127.0.0.1 at 2011-10-03 19:26:53 -0700
+
+TypeError (can't convert nil into Integer):
+  
+
+Rendered /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (26.5ms)
+Error during failsafe response: ActionView::Template::Error
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.0.10/lib/active_support/whiny_nil.rb:48:in `method_missing'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_dispatch/http/parameters.rb:10:in `parameters'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb:3:in `__home_tchan__rvm_gems_ruby_______p____gems_actionpack________lib_action_dispatch_middleware_templates_rescues_diagnostics_erb__3269172846920362047_35039600_3416591318505336139'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_view/template.rb:135:in `block in render'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.0.10/lib/active_support/notifications.rb:54:in `instrument'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_view/template.rb:127:in `render'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_view/render/rendering.rb:59:in `block in _render_template'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.0.10/lib/active_support/notifications.rb:52:in `block in instrument'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.0.10/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.0.10/lib/active_support/notifications.rb:52:in `instrument'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_view/render/rendering.rb:56:in `_render_template'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_view/render/rendering.rb:26:in `render'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_dispatch/middleware/show_exceptions.rb:88:in `rescue_action_locally'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_dispatch/middleware/show_exceptions.rb:68:in `render_exception'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_dispatch/middleware/show_exceptions.rb:59:in `call'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/railties-3.0.10/lib/rails/rack/logger.rb:13:in `call'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/rack-1.2.3/lib/rack/runtime.rb:17:in `call'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.0.10/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/rack-1.2.3/lib/rack/lock.rb:11:in `block in call'
+  <internal:prelude>:10:in `synchronize'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/rack-1.2.3/lib/rack/lock.rb:11:in `call'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_dispatch/middleware/static.rb:30:in `call'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/railties-3.0.10/lib/rails/application.rb:168:in `call'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/railties-3.0.10/lib/rails/application.rb:77:in `method_missing'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/railties-3.0.10/lib/rails/rack/log_tailer.rb:14:in `call'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/rack-1.2.3/lib/rack/content_length.rb:13:in `call'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/rack-1.2.3/lib/rack/handler/webrick.rb:52:in `service'
+  /home/tchan/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /home/tchan/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /home/tchan/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+Started POST "/listings" for 127.0.0.1 at 2011-10-03 19:27:06 -0700
+
+TypeError (can't convert nil into Integer):
+  
+
+Rendered /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (0.6ms)
+^C[2011-10-03 19:30:27] INFO  going to shutdown ...
+[2011-10-03 19:30:27] INFO  WEBrick::HTTPServer#start done.
+Exiting
+]0;tchan@acjcm3c: ~/repo/garagetchan@acjcm3c:~/repo/garage$ rails server
+=> Booting WEBrick
+=> Rails 3.0.10 application starting in development on http://0.0.0.0:3000
+=> Call with -d to detach
+=> Ctrl-C to shutdown server
+[2011-10-03 19:30:30] INFO  WEBrick 1.3.1
+[2011-10-03 19:30:30] INFO  ruby 1.9.2 (2011-07-09) [x86_64-linux]
+[2011-10-03 19:30:30] INFO  WEBrick::HTTPServer#start: pid=2347 port=3000
+
+
+Started GET "/listings" for 127.0.0.1 at 2011-10-03 19:30:33 -0700
+  Processing by ListingsController#index as HTML
+  [1m[36mListing Load (2.5ms)[0m  [1mSELECT "listings".* FROM "listings"[0m
+Rendered /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/gmaps4rails-1.0.2/app/views/gmaps4rails/_gmaps4rails.html.erb (1.6ms)
+Rendered listings/index.html.erb within layouts/application (46.9ms)
+Completed 200 OK in 136ms (Views: 50.2ms | ActiveRecord: 2.5ms)
+
+
+Started GET "/javascripts/jquery.js" for 127.0.0.1 at 2011-10-03 19:30:34 -0700
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.js"):
+  
+
+Rendered /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+Error during failsafe response: ActionView::Template::Error
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.0.10/lib/active_support/whiny_nil.rb:48:in `method_missing'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_dispatch/http/parameters.rb:10:in `parameters'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb:3:in `__home_tchan__rvm_gems_ruby_______p____gems_actionpack________lib_action_dispatch_middleware_templates_rescues_diagnostics_erb__3374917466711717195_19654100_1683402066818811894'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_view/template.rb:135:in `block in render'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.0.10/lib/active_support/notifications.rb:54:in `instrument'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_view/template.rb:127:in `render'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_view/render/rendering.rb:59:in `block in _render_template'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.0.10/lib/active_support/notifications.rb:52:in `block in instrument'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.0.10/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.0.10/lib/active_support/notifications.rb:52:in `instrument'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_view/render/rendering.rb:56:in `_render_template'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_view/render/rendering.rb:26:in `render'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_dispatch/middleware/show_exceptions.rb:88:in `rescue_action_locally'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_dispatch/middleware/show_exceptions.rb:68:in `render_exception'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_dispatch/middleware/show_exceptions.rb:59:in `call'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/railties-3.0.10/lib/rails/rack/logger.rb:13:in `call'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/rack-1.2.3/lib/rack/runtime.rb:17:in `call'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.0.10/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/rack-1.2.3/lib/rack/lock.rb:11:in `block in call'
+  <internal:prelude>:10:in `synchronize'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/rack-1.2.3/lib/rack/lock.rb:11:in `call'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_dispatch/middleware/static.rb:30:in `call'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/railties-3.0.10/lib/rails/application.rb:168:in `call'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/railties-3.0.10/lib/rails/application.rb:77:in `method_missing'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/railties-3.0.10/lib/rails/rack/log_tailer.rb:14:in `call'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/rack-1.2.3/lib/rack/content_length.rb:13:in `call'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/rack-1.2.3/lib/rack/handler/webrick.rb:52:in `service'
+  /home/tchan/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /home/tchan/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /home/tchan/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+Started POST "/listings" for 127.0.0.1 at 2011-10-03 19:30:36 -0700
+
+TypeError (can't convert nil into Integer):
+  
+
+Rendered /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (25.5ms)
+
+
+Started GET "/listings" for 127.0.0.1 at 2011-10-03 19:33:16 -0700
+  Processing by ListingsController#index as HTML
+  [1m[35mListing Load (2.3ms)[0m  SELECT "listings".* FROM "listings"
+Rendered /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/gmaps4rails-1.0.2/app/views/gmaps4rails/_gmaps4rails.html.erb (1.5ms)
+Rendered listings/index.html.erb within layouts/application (28.4ms)
+Completed 200 OK in 47ms (Views: 31.4ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/javascripts/jquery.js" for 127.0.0.1 at 2011-10-03 19:33:16 -0700
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.js"):
+  
+
+Rendered /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+Error during failsafe response: ActionView::Template::Error
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.0.10/lib/active_support/whiny_nil.rb:48:in `method_missing'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_dispatch/http/parameters.rb:10:in `parameters'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb:3:in `__home_tchan__rvm_gems_ruby_______p____gems_actionpack________lib_action_dispatch_middleware_templates_rescues_diagnostics_erb__3374917466711717195_25305220_1683402066818811894'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_view/template.rb:135:in `block in render'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.0.10/lib/active_support/notifications.rb:54:in `instrument'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_view/template.rb:127:in `render'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_view/render/rendering.rb:59:in `block in _render_template'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.0.10/lib/active_support/notifications.rb:52:in `block in instrument'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.0.10/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.0.10/lib/active_support/notifications.rb:52:in `instrument'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_view/render/rendering.rb:56:in `_render_template'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_view/render/rendering.rb:26:in `render'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_dispatch/middleware/show_exceptions.rb:88:in `rescue_action_locally'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_dispatch/middleware/show_exceptions.rb:68:in `render_exception'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_dispatch/middleware/show_exceptions.rb:59:in `call'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/railties-3.0.10/lib/rails/rack/logger.rb:13:in `call'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/rack-1.2.3/lib/rack/runtime.rb:17:in `call'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.0.10/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/rack-1.2.3/lib/rack/lock.rb:11:in `block in call'
+  <internal:prelude>:10:in `synchronize'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/rack-1.2.3/lib/rack/lock.rb:11:in `call'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_dispatch/middleware/static.rb:30:in `call'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/railties-3.0.10/lib/rails/application.rb:168:in `call'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/railties-3.0.10/lib/rails/application.rb:77:in `method_missing'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/railties-3.0.10/lib/rails/rack/log_tailer.rb:14:in `call'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/rack-1.2.3/lib/rack/content_length.rb:13:in `call'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/rack-1.2.3/lib/rack/handler/webrick.rb:52:in `service'
+  /home/tchan/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /home/tchan/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /home/tchan/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+Started POST "/listings" for 127.0.0.1 at 2011-10-03 19:33:20 -0700
+
+TypeError (can't convert nil into Integer):
+  
+
+Rendered /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (0.6ms)
+^C[2011-10-03 19:38:36] INFO  going to shutdown ...
+[2011-10-03 19:38:36] INFO  WEBrick::HTTPServer#start done.
+Exiting
+]0;tchan@acjcm3c: ~/repo/garagetchan@acjcm3c:~/repo/garage$ rails server
+=> Booting WEBrick
+=> Rails 3.0.10 application starting in development on http://0.0.0.0:3000
+=> Call with -d to detach
+=> Ctrl-C to shutdown server
+[2011-10-03 21:34:15] INFO  WEBrick 1.3.1
+[2011-10-03 21:34:15] INFO  ruby 1.9.2 (2011-07-09) [x86_64-linux]
+[2011-10-03 21:34:15] INFO  WEBrick::HTTPServer#start: pid=3866 port=3000
+
+
+Started GET "/listings" for 127.0.0.1 at 2011-10-03 21:34:18 -0700
+  Processing by ListingsController#index as HTML
+  [1m[36mListing Load (15.7ms)[0m  [1mSELECT "listings".* FROM "listings"[0m
+Rendered /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/gmaps4rails-1.0.2/app/views/gmaps4rails/_gmaps4rails.html.erb (1.5ms)
+Rendered listings/index.html.erb within layouts/application (46.6ms)
+Completed 200 OK in 135ms (Views: 49.4ms | ActiveRecord: 15.7ms)
+
+
+Started GET "/javascripts/jquery.js" for 127.0.0.1 at 2011-10-03 21:34:19 -0700
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.js"):
+  
+
+Rendered /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/javascripts/jquery.js" for 127.0.0.1 at 2011-10-03 21:34:19 -0700
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.js"):
+  
+
+Rendered /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started POST "/listings" for 127.0.0.1 at 2011-10-03 21:34:22 -0700
+  Processing by ListingsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"iQelNdgfIApW9VWr+Su2zYtezg3Vcqq/a2xtIQOBVYU=", "listing"=>{"email"=>"", "address"=>"", "start_time(1i)"=>"2011", "start_time(2i)"=>"10", "start_time(3i)"=>"4", "description"=>""}, "start_time"=>{"year"=>"2011", "month"=>"1", "day"=>"1", "hour"=>"10", "minute"=>"00"}, "end_time"=>{"year"=>"2011", "month"=>"1", "day"=>"1", "hour"=>"16", "minute"=>"00"}, "commit"=>"Create Listing"}
+Rendered /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/gmaps4rails-1.0.2/app/views/gmaps4rails/_gmaps4rails.html.erb (1.5ms)
+Rendered listings/index.html.erb within layouts/application (15.6ms)
+Completed 200 OK in 55ms (Views: 18.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/javascripts/jquery.js" for 127.0.0.1 at 2011-10-03 21:34:22 -0700
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.js"):
+  
+
+Rendered /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from <top (required)> at /home/tchan/repo/garage/config/environment.rb:5)
+
+
+Started GET "/listings" for 127.0.0.1 at 2011-10-03 21:49:26 -0700
+  Processing by ListingsController#index as HTML
+  [1m[35mListing Load (19.3ms)[0m  SELECT "listings".* FROM "listings"
+Rendered /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/gmaps4rails-1.0.2/app/views/gmaps4rails/_gmaps4rails.html.erb (1.5ms)
+Rendered listings/index.html.erb within layouts/application (11.5ms)
+Completed 200 OK in 46ms (Views: 14.1ms | ActiveRecord: 19.3ms)
+
+
+Started GET "/javascripts/jquery.js" for 127.0.0.1 at 2011-10-03 21:49:26 -0700
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.js"):
+  
+
+Rendered /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/javascripts/jquery.js" for 127.0.0.1 at 2011-10-03 21:49:26 -0700
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.js"):
+  
+
+Rendered /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.2ms)
+
+
+Started POST "/listings" for 127.0.0.1 at 2011-10-03 21:49:33 -0700
+  Processing by ListingsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"iQelNdgfIApW9VWr+Su2zYtezg3Vcqq/a2xtIQOBVYU=", "listing"=>{"email"=>"", "address"=>"", "start_time(1i)"=>"2011", "start_time(2i)"=>"10", "start_time(3i)"=>"4", "file"=>#<ActionDispatch::Http::UploadedFile:0x00000001c36ff8 @original_filename="stylesheet.css", @content_type="text/css", @headers="Content-Disposition: form-data; name=\"listing[file]\"; filename=\"stylesheet.css\"\r\nContent-Type: text/css\r\n", @tempfile=#<File:/tmp/RackMultipart20111003-3866-1k9f1vg>>, "description"=>""}, "start_time"=>{"year"=>"2011", "month"=>"1", "day"=>"1", "hour"=>"10", "minute"=>"00"}, "end_time"=>{"year"=>"2011", "month"=>"1", "day"=>"1", "hour"=>"16", "minute"=>"00"}, "commit"=>"Create Listing"}
+Completed 500 Internal Server Error in 36ms
+
+ActiveRecord::UnknownAttributeError (unknown attribute: file):
+  app/controllers/listings_controller.rb:59:in `new'
+  app/controllers/listings_controller.rb:59:in `create'
+
+Rendered /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.4ms)
+Rendered /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (10.2ms)
+
+
+Started POST "/listings" for 127.0.0.1 at 2011-10-03 21:50:02 -0700
+  Processing by ListingsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"iQelNdgfIApW9VWr+Su2zYtezg3Vcqq/a2xtIQOBVYU=", "listing"=>{"email"=>"", "address"=>"", "start_time(1i)"=>"2011", "start_time(2i)"=>"10", "start_time(3i)"=>"4", "file"=>#<ActionDispatch::Http::UploadedFile:0x00000003f23638 @original_filename="stylesheet.css", @content_type="text/css", @headers="Content-Disposition: form-data; name=\"listing[file]\"; filename=\"stylesheet.css\"\r\nContent-Type: text/css\r\n", @tempfile=#<File:/tmp/RackMultipart20111003-3866-1atxo92>>, "description"=>""}, "start_time"=>{"year"=>"2011", "month"=>"1", "day"=>"1", "hour"=>"10", "minute"=>"00"}, "end_time"=>{"year"=>"2011", "month"=>"1", "day"=>"1", "hour"=>"16", "minute"=>"00"}, "commit"=>"Create Listing"}
+Completed 500 Internal Server Error in 30ms
+
+ActiveRecord::UnknownAttributeError (unknown attribute: file):
+  app/controllers/listings_controller.rb:59:in `new'
+  app/controllers/listings_controller.rb:59:in `create'
+
+Rendered /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+Rendered /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.8ms)
+Rendered /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.7ms)
+
+
+Started POST "/listings" for 127.0.0.1 at 2011-10-03 21:51:01 -0700
+  Processing by ListingsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"iQelNdgfIApW9VWr+Su2zYtezg3Vcqq/a2xtIQOBVYU=", "listing"=>{"email"=>"", "address"=>"", "start_time(1i)"=>"2011", "start_time(2i)"=>"10", "start_time(3i)"=>"4", "file"=>#<ActionDispatch::Http::UploadedFile:0x0000000423a600 @original_filename="stylesheet.css", @content_type="text/css", @headers="Content-Disposition: form-data; name=\"listing[file]\"; filename=\"stylesheet.css\"\r\nContent-Type: text/css\r\n", @tempfile=#<File:/tmp/RackMultipart20111003-3866-1dditjd>>, "description"=>""}, "start_time"=>{"year"=>"2011", "month"=>"1", "day"=>"1", "hour"=>"10", "minute"=>"00"}, "end_time"=>{"year"=>"2011", "month"=>"1", "day"=>"1", "hour"=>"16", "minute"=>"00"}, "commit"=>"Create Listing"}
+Completed 500 Internal Server Error in 13ms
+
+ActiveRecord::UnknownAttributeError (unknown attribute: file):
+  app/controllers/listings_controller.rb:59:in `new'
+  app/controllers/listings_controller.rb:59:in `create'
+
+Rendered /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (22.1ms)
+Rendered /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (25.5ms)
+
+
+Started POST "/listings" for 127.0.0.1 at 2011-10-03 21:53:26 -0700
+  Processing by ListingsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"iQelNdgfIApW9VWr+Su2zYtezg3Vcqq/a2xtIQOBVYU=", "listing"=>{"email"=>"", "address"=>"", "start_time(1i)"=>"2011", "start_time(2i)"=>"10", "start_time(3i)"=>"4", "file"=>#<ActionDispatch::Http::UploadedFile:0x000000044ddce0 @original_filename="stylesheet.css", @content_type="text/css", @headers="Content-Disposition: form-data; name=\"listing[file]\"; filename=\"stylesheet.css\"\r\nContent-Type: text/css\r\n", @tempfile=#<File:/tmp/RackMultipart20111003-3866-1h4jmfz>>, "description"=>""}, "start_time"=>{"year"=>"2011", "month"=>"1", "day"=>"1", "hour"=>"10", "minute"=>"00"}, "end_time"=>{"year"=>"2011", "month"=>"1", "day"=>"1", "hour"=>"16", "minute"=>"00"}, "commit"=>"Create Listing"}
+Completed 500 Internal Server Error in 13ms
+
+ActiveRecord::UnknownAttributeError (unknown attribute: file):
+  app/controllers/listings_controller.rb:59:in `new'
+  app/controllers/listings_controller.rb:59:in `create'
+
+Rendered /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+Rendered /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.3ms)
+Rendered /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.5ms)
+
+
+Started POST "/listings" for 127.0.0.1 at 2011-10-03 21:54:05 -0700
+  Processing by ListingsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"iQelNdgfIApW9VWr+Su2zYtezg3Vcqq/a2xtIQOBVYU=", "listing"=>{"email"=>"", "address"=>"", "start_time(1i)"=>"2011", "start_time(2i)"=>"10", "start_time(3i)"=>"4", "file"=>#<ActionDispatch::Http::UploadedFile:0x0000000457a658 @original_filename="stylesheet.css", @content_type="text/css", @headers="Content-Disposition: form-data; name=\"listing[file]\"; filename=\"stylesheet.css\"\r\nContent-Type: text/css\r\n", @tempfile=#<File:/tmp/RackMultipart20111003-3866-ulj4ov>>, "description"=>""}, "start_time"=>{"year"=>"2011", "month"=>"1", "day"=>"1", "hour"=>"10", "minute"=>"00"}, "end_time"=>{"year"=>"2011", "month"=>"1", "day"=>"1", "hour"=>"16", "minute"=>"00"}, "commit"=>"Create Listing"}
+Completed 500 Internal Server Error in 12ms
+
+ActiveRecord::UnknownAttributeError (unknown attribute: file):
+  app/controllers/listings_controller.rb:59:in `new'
+  app/controllers/listings_controller.rb:59:in `create'
+
+Rendered /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+Rendered /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.6ms)
+Rendered /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.4ms)
+
+
+Started GET "/listings" for 127.0.0.1 at 2011-10-03 21:54:25 -0700
+  Processing by ListingsController#index as HTML
+  [1m[36mListing Load (18.3ms)[0m  [1mSELECT "listings".* FROM "listings"[0m
+Rendered /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/gmaps4rails-1.0.2/app/views/gmaps4rails/_gmaps4rails.html.erb (1.8ms)
+Rendered listings/index.html.erb within layouts/application (11.5ms)
+Completed 200 OK in 45ms (Views: 14.1ms | ActiveRecord: 18.3ms)
+
+
+Started GET "/javascripts/jquery.js" for 127.0.0.1 at 2011-10-03 21:54:25 -0700
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.js"):
+  
+
+Rendered /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/javascripts/jquery.js" for 127.0.0.1 at 2011-10-03 21:54:25 -0700
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.js"):
+  
+
+
+
+Started GET "/javascripts/jquery.js" for 127.0.0.1 at 2011-10-03 21:54:26 -0700
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.js"):
+  
+
+Rendered /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started POST "/listings" for 127.0.0.1 at 2011-10-03 21:54:33 -0700
+  Processing by ListingsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"iQelNdgfIApW9VWr+Su2zYtezg3Vcqq/a2xtIQOBVYU=", "listing"=>{"email"=>"", "address"=>"", "start_time(1i)"=>"2011", "start_time(2i)"=>"10", "start_time(3i)"=>"4", "file"=>#<ActionDispatch::Http::UploadedFile:0x00000001c8f6a8 @original_filename="reset.css", @content_type="text/css", @headers="Content-Disposition: form-data; name=\"listing[file]\"; filename=\"reset.css\"\r\nContent-Type: text/css\r\n", @tempfile=#<File:/tmp/RackMultipart20111003-3866-1eqorq>>, "description"=>""}, "start_time"=>{"year"=>"2011", "month"=>"1", "day"=>"1", "hour"=>"10", "minute"=>"00"}, "end_time"=>{"year"=>"2011", "month"=>"1", "day"=>"1", "hour"=>"16", "minute"=>"00"}, "commit"=>"Create Listing"}
+Completed 500 Internal Server Error in 34ms
+
+ActiveRecord::UnknownAttributeError (unknown attribute: file):
+  app/controllers/listings_controller.rb:59:in `new'
+  app/controllers/listings_controller.rb:59:in `create'
+
+Rendered /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+Rendered /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.7ms)
+Rendered /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.7ms)
+
+
+Started POST "/listings" for 127.0.0.1 at 2011-10-03 21:54:55 -0700
+  Processing by ListingsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"iQelNdgfIApW9VWr+Su2zYtezg3Vcqq/a2xtIQOBVYU=", "listing"=>{"email"=>"", "address"=>"", "start_time(1i)"=>"2011", "start_time(2i)"=>"10", "start_time(3i)"=>"4", "file"=>#<ActionDispatch::Http::UploadedFile:0x00000004189e68 @original_filename="reset.css", @content_type="text/css", @headers="Content-Disposition: form-data; name=\"listing[file]\"; filename=\"reset.css\"\r\nContent-Type: text/css\r\n", @tempfile=#<File:/tmp/RackMultipart20111003-3866-77s196>>, "description"=>""}, "start_time"=>{"year"=>"2011", "month"=>"1", "day"=>"1", "hour"=>"10", "minute"=>"00"}, "end_time"=>{"year"=>"2011", "month"=>"1", "day"=>"1", "hour"=>"16", "minute"=>"00"}, "commit"=>"Create Listing"}
+Completed 500 Internal Server Error in 33ms
+
+ActiveRecord::UnknownAttributeError (unknown attribute: file):
+  app/controllers/listings_controller.rb:59:in `new'
+  app/controllers/listings_controller.rb:59:in `create'
+
+Rendered /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+Rendered /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.9ms)
+Rendered /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.0ms)
+
+
+Started POST "/listings" for 127.0.0.1 at 2011-10-03 21:55:15 -0700
+  Processing by ListingsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"iQelNdgfIApW9VWr+Su2zYtezg3Vcqq/a2xtIQOBVYU=", "listing"=>{"email"=>"", "address"=>"", "start_time(1i)"=>"2011", "start_time(2i)"=>"10", "start_time(3i)"=>"4", "file"=>#<ActionDispatch::Http::UploadedFile:0x00000004370718 @original_filename="reset.css", @content_type="text/css", @headers="Content-Disposition: form-data; name=\"listing[file]\"; filename=\"reset.css\"\r\nContent-Type: text/css\r\n", @tempfile=#<File:/tmp/RackMultipart20111003-3866-zwvt65>>, "description"=>""}, "start_time"=>{"year"=>"2011", "month"=>"1", "day"=>"1", "hour"=>"10", "minute"=>"00"}, "end_time"=>{"year"=>"2011", "month"=>"1", "day"=>"1", "hour"=>"16", "minute"=>"00"}, "commit"=>"Create Listing"}
+Completed 500 Internal Server Error in 25ms
+
+ActiveRecord::UnknownAttributeError (unknown attribute: file):
+  app/controllers/listings_controller.rb:59:in `new'
+  app/controllers/listings_controller.rb:59:in `create'
+
+Rendered /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+Rendered /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.9ms)
+Rendered /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.9ms)
+
+
+Started GET "/listings" for 127.0.0.1 at 2011-10-03 21:55:46 -0700
+  Processing by ListingsController#index as HTML
+  [1m[35mListing Load (2.3ms)[0m  SELECT "listings".* FROM "listings"
+Rendered /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/gmaps4rails-1.0.2/app/views/gmaps4rails/_gmaps4rails.html.erb (1.6ms)
+Rendered listings/index.html.erb within layouts/application (11.9ms)
+Completed 200 OK in 30ms (Views: 14.6ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/javascripts/jquery.js" for 127.0.0.1 at 2011-10-03 21:55:46 -0700
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.js"):
+  
+
+Rendered /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/javascripts/jquery.js" for 127.0.0.1 at 2011-10-03 21:55:46 -0700
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.js"):
+  
+
+Rendered /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.3ms)
+
+
+Started POST "/listings" for 127.0.0.1 at 2011-10-03 21:55:53 -0700
+  Processing by ListingsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"iQelNdgfIApW9VWr+Su2zYtezg3Vcqq/a2xtIQOBVYU=", "listing"=>{"email"=>"", "address"=>"", "start_time(1i)"=>"2011", "start_time(2i)"=>"10", "start_time(3i)"=>"4", "file"=>#<ActionDispatch::Http::UploadedFile:0x00000004564790 @original_filename="reset.css", @content_type="text/css", @headers="Content-Disposition: form-data; name=\"listing[file]\"; filename=\"reset.css\"\r\nContent-Type: text/css\r\n", @tempfile=#<File:/tmp/RackMultipart20111003-3866-1uo4zij>>, "description"=>""}, "start_time"=>{"year"=>"2011", "month"=>"1", "day"=>"1", "hour"=>"10", "minute"=>"00"}, "end_time"=>{"year"=>"2011", "month"=>"1", "day"=>"1", "hour"=>"16", "minute"=>"00"}, "commit"=>"Create Listing"}
+Completed 500 Internal Server Error in 14ms
+
+ActiveRecord::UnknownAttributeError (unknown attribute: file):
+  app/controllers/listings_controller.rb:59:in `new'
+  app/controllers/listings_controller.rb:59:in `create'
+
+Rendered /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.8ms)
+Rendered /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.2ms)
+
+
+Started GET "/listings" for 127.0.0.1 at 2011-10-03 21:56:51 -0700
+  Processing by ListingsController#index as HTML
+  [1m[36mListing Load (19.8ms)[0m  [1mSELECT "listings".* FROM "listings"[0m
+Rendered /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/gmaps4rails-1.0.2/app/views/gmaps4rails/_gmaps4rails.html.erb (1.6ms)
+Rendered listings/index.html.erb within layouts/application (12.0ms)
+Completed 200 OK in 48ms (Views: 14.7ms | ActiveRecord: 19.8ms)
+
+
+Started GET "/javascripts/jquery.js" for 127.0.0.1 at 2011-10-03 21:56:51 -0700
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.js"):
+  
+
+Rendered /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started POST "/listings" for 127.0.0.1 at 2011-10-03 21:56:56 -0700
+  Processing by ListingsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"iQelNdgfIApW9VWr+Su2zYtezg3Vcqq/a2xtIQOBVYU=", "listing"=>{"email"=>"", "address"=>"", "start_time(1i)"=>"2011", "start_time(2i)"=>"10", "start_time(3i)"=>"4", "url"=>#<ActionDispatch::Http::UploadedFile:0x0000000258a8e8 @original_filename="reset.css", @content_type="text/css", @headers="Content-Disposition: form-data; name=\"listing[url]\"; filename=\"reset.css\"\r\nContent-Type: text/css\r\n", @tempfile=#<File:/tmp/RackMultipart20111003-3866-wo3yo5>>, "description"=>""}, "start_time"=>{"year"=>"2011", "month"=>"1", "day"=>"1", "hour"=>"10", "minute"=>"00"}, "end_time"=>{"year"=>"2011", "month"=>"1", "day"=>"1", "hour"=>"16", "minute"=>"00"}, "commit"=>"Create Listing"}
+Completed 500 Internal Server Error in 32ms
+
+ActiveRecord::UnknownAttributeError (unknown attribute: url):
+  app/controllers/listings_controller.rb:59:in `new'
+  app/controllers/listings_controller.rb:59:in `create'
+
+Rendered /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.1ms)
+Rendered /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.5ms)
+
+
+Started GET "/listings" for 127.0.0.1 at 2011-10-03 21:57:27 -0700
+  Processing by ListingsController#index as HTML
+  [1m[35mListing Load (2.3ms)[0m  SELECT "listings".* FROM "listings"
+Rendered /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/gmaps4rails-1.0.2/app/views/gmaps4rails/_gmaps4rails.html.erb (1.8ms)
+Rendered listings/index.html.erb within layouts/application (11.8ms)
+Completed 200 OK in 47ms (Views: 14.5ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/javascripts/jquery.js" for 127.0.0.1 at 2011-10-03 21:57:27 -0700
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.js"):
+  
+
+Rendered /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/javascripts/jquery.js" for 127.0.0.1 at 2011-10-03 21:57:27 -0700
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.js"):
+  
+
+Rendered /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started POST "/listings" for 127.0.0.1 at 2011-10-03 21:57:33 -0700
+  Processing by ListingsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"iQelNdgfIApW9VWr+Su2zYtezg3Vcqq/a2xtIQOBVYU=", "listing"=>{"email"=>"", "address"=>"", "start_time(1i)"=>"2011", "start_time(2i)"=>"10", "start_time(3i)"=>"4", "blah"=>#<ActionDispatch::Http::UploadedFile:0x000000031c1968 @original_filename="reset.css", @content_type="text/css", @headers="Content-Disposition: form-data; name=\"listing[blah]\"; filename=\"reset.css\"\r\nContent-Type: text/css\r\n", @tempfile=#<File:/tmp/RackMultipart20111003-3866-1a9zqba>>, "description"=>""}, "start_time"=>{"year"=>"2011", "month"=>"1", "day"=>"1", "hour"=>"10", "minute"=>"00"}, "end_time"=>{"year"=>"2011", "month"=>"1", "day"=>"1", "hour"=>"16", "minute"=>"00"}, "commit"=>"Create Listing"}
+Completed 500 Internal Server Error in 40ms
+
+ActiveRecord::UnknownAttributeError (unknown attribute: blah):
+  app/controllers/listings_controller.rb:59:in `new'
+  app/controllers/listings_controller.rb:59:in `create'
+
+Rendered /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+Rendered /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.9ms)
+Rendered /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (8.1ms)
+
+
+Started GET "/listings" for 127.0.0.1 at 2011-10-03 21:59:05 -0700
+
+SyntaxError (/home/tchan/repo/garage/app/controllers/listings_controller.rb:59: syntax error, unexpected '!', expecting keyword_end):
+  
+
+Rendered /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+Rendered /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+Rendered /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (4.1ms)
+
+
+Started GET "/listings" for 127.0.0.1 at 2011-10-03 21:59:06 -0700
+
+SyntaxError (/home/tchan/repo/garage/app/controllers/listings_controller.rb:59: syntax error, unexpected '!', expecting keyword_end):
+  
+
+Rendered /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+Rendered /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+Rendered /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.9ms)
+
+
+Started GET "/listings" for 127.0.0.1 at 2011-10-03 21:59:08 -0700
+
+SyntaxError (/home/tchan/repo/garage/app/controllers/listings_controller.rb:59: syntax error, unexpected '!', expecting keyword_end):
+  
+
+Rendered /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+Rendered /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+Rendered /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (4.1ms)
+
+
+Started GET "/listings" for 127.0.0.1 at 2011-10-03 22:06:25 -0700
+  Processing by ListingsController#index as HTML
+  [1m[36mListing Load (2.3ms)[0m  [1mSELECT "listings".* FROM "listings"[0m
+Rendered /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/gmaps4rails-1.0.2/app/views/gmaps4rails/_gmaps4rails.html.erb (1.5ms)
+Rendered listings/index.html.erb within layouts/application (12.1ms)
+Completed 200 OK in 48ms (Views: 14.8ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/javascripts/jquery.js" for 127.0.0.1 at 2011-10-03 22:06:25 -0700
+
+
+Started GET "/javascripts/jquery.js" for 127.0.0.1 at 2011-10-03 22:06:25 -0700
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.js"):
+  
+
+Rendered /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+{"email"=>"", "address"=>"", "start_time(1i)"=>"2011", "start_time(2i)"=>"10", "start_time(3i)"=>"4", "description"=>""}
+
+
+Started POST "/listings" for 127.0.0.1 at 2011-10-03 22:06:29 -0700
+  Processing by ListingsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"iQelNdgfIApW9VWr+Su2zYtezg3Vcqq/a2xtIQOBVYU=", "listing"=>{"email"=>"", "address"=>"", "start_time(1i)"=>"2011", "start_time(2i)"=>"10", "start_time(3i)"=>"4", "description"=>""}, "start_time"=>{"year"=>"2011", "month"=>"1", "day"=>"1", "hour"=>"10", "minute"=>"00"}, "end_time"=>{"year"=>"2011", "month"=>"1", "day"=>"1", "hour"=>"16", "minute"=>"00"}, "commit"=>"Create Listing"}
+Rendered /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/gmaps4rails-1.0.2/app/views/gmaps4rails/_gmaps4rails.html.erb (1.5ms)
+Rendered listings/index.html.erb within layouts/application (11.9ms)
+Completed 200 OK in 47ms (Views: 14.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/javascripts/jquery.js" for 127.0.0.1 at 2011-10-03 22:06:29 -0700
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.js"):
+  
+
+Rendered /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started POST "/listings" for 127.0.0.1 at 2011-10-03 22:06:35 -0700
+  Processing by ListingsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"iQelNdgfIApW9VWr+Su2zYtezg3Vcqq/a2xtIQOBVYU=", "listing"=>{"email"=>"", "address"=>"", "start_time(1i)"=>"2011", "start_time(2i)"=>"10", "start_time(3i)"=>"4", "blah"=>#<ActionDispatch::Http::UploadedFile:0x00000003a25cf8 @original_filename="stylesheet.css", @content_type="text/css", @headers="Content-Disposition: form-data; name=\"listing[blah]\"; filename=\"stylesheet.css\"\r\nContent-Type: text/css\r\n", @tempfile=#<File:/tmp/RackMultipart20111003-3866-1uyg7wz>>, "description"=>""}, "start_time"=>{"year"=>"2011", "month"=>"1", "day"=>"1", "hour"=>"10", "minute"=>"00"}, "end_time"=>{"year"=>"2011", "month"=>"1", "day"=>"1", "hour"=>"16", "minute"=>"00"}, "commit"=>"Create Listing"}
+Completed 500 Internal Server Error in 31ms
+
+ActiveRecord::UnknownAttributeError (unknown attribute: blah):
+  app/controllers/listings_controller.rb:59:in `new'
+  app/controllers/listings_controller.rb:59:in `create'
+
+Rendered /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+Rendered /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.6ms)
+Rendered /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.6ms)
+{"email"=>"", "address"=>"", "start_time(1i)"=>"2011", "start_time(2i)"=>"10", "start_time(3i)"=>"4", "description"=>""}
+
+
+Started POST "/listings" for 127.0.0.1 at 2011-10-03 22:35:52 -0700
+  Processing by ListingsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"iQelNdgfIApW9VWr+Su2zYtezg3Vcqq/a2xtIQOBVYU=", "listing"=>{"email"=>"", "address"=>"", "start_time(1i)"=>"2011", "start_time(2i)"=>"10", "start_time(3i)"=>"4", "description"=>""}, "start_time"=>{"year"=>"2011", "month"=>"1", "day"=>"1", "hour"=>"10", "minute"=>"00"}, "end_time"=>{"year"=>"2011", "month"=>"1", "day"=>"1", "hour"=>"16", "minute"=>"00"}, "commit"=>"Create Listing"}
+Rendered /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/gmaps4rails-1.0.2/app/views/gmaps4rails/_gmaps4rails.html.erb (1.9ms)
+Rendered listings/index.html.erb within layouts/application (21.0ms)
+Completed 500 Internal Server Error in 55ms
+
+ActionView::Template::Error (can't convert Symbol into Integer):
+    143:                   <label for="fileInput">File Input:</label>
+    144: 
+    145:                   <div class="input">
+    146:                     <%= f.file_field :images[:url], :class => 'input-file' %>
+    147:                     <span class=
+    148:                           "help-inline">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Provide
+    149:                       an image of the sale items.</span>
+  app/views/listings/index.html.erb:146:in `[]'
+  app/views/listings/index.html.erb:146:in `block in _app_views_listings_index_html_erb__998252333878888398_34733520_1560383375191677161'
+  app/views/listings/index.html.erb:95:in `_app_views_listings_index_html_erb__998252333878888398_34733520_1560383375191677161'
+  app/controllers/listings_controller.rb:79:in `block (2 levels) in create'
+  app/controllers/listings_controller.rb:74:in `create'
+
+Rendered /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (5.9ms)
+Rendered /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.3ms)
+Rendered /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (23.2ms)
+
+
+Started GET "/listings" for 127.0.0.1 at 2011-10-03 22:36:11 -0700
+  Processing by ListingsController#index as HTML
+  [1m[35mListing Load (18.6ms)[0m  SELECT "listings".* FROM "listings"
+Rendered /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/gmaps4rails-1.0.2/app/views/gmaps4rails/_gmaps4rails.html.erb (1.6ms)
+Rendered listings/index.html.erb within layouts/application (12.5ms)
+Completed 200 OK in 50ms (Views: 15.1ms | ActiveRecord: 18.6ms)
+
+
+Started GET "/javascripts/jquery.js" for 127.0.0.1 at 2011-10-03 22:36:11 -0700
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.js"):
+  
+
+Rendered /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/javascripts/jquery.js" for 127.0.0.1 at 2011-10-03 22:36:11 -0700
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.js"):
+  
+
+Rendered /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.3ms)
+{"email"=>"", "address"=>"", "start_time(1i)"=>"2011", "start_time(2i)"=>"10", "start_time(3i)"=>"4", "description"=>""}
+
+
+Started POST "/listings" for 127.0.0.1 at 2011-10-03 22:36:25 -0700
+  Processing by ListingsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"iQelNdgfIApW9VWr+Su2zYtezg3Vcqq/a2xtIQOBVYU=", "listing"=>{"email"=>"", "address"=>"", "start_time(1i)"=>"2011", "start_time(2i)"=>"10", "start_time(3i)"=>"4", "description"=>""}, "start_time"=>{"year"=>"2011", "month"=>"1", "day"=>"1", "hour"=>"10", "minute"=>"00"}, "end_time"=>{"year"=>"2011", "month"=>"1", "day"=>"1", "hour"=>"16", "minute"=>"00"}, "commit"=>"Create Listing"}
+Rendered /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/gmaps4rails-1.0.2/app/views/gmaps4rails/_gmaps4rails.html.erb (1.6ms)
+Rendered listings/index.html.erb within layouts/application (12.2ms)
+Completed 200 OK in 50ms (Views: 15.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/javascripts/jquery.js" for 127.0.0.1 at 2011-10-03 22:36:25 -0700
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.js"):
+  
+
+Rendered /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+Error during failsafe response: ActionView::Template::Error
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.0.10/lib/active_support/whiny_nil.rb:48:in `method_missing'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_dispatch/http/parameters.rb:10:in `parameters'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb:3:in `__home_tchan__rvm_gems_ruby_______p____gems_actionpack________lib_action_dispatch_middleware_templates_rescues_diagnostics_erb___1771942074500000009_28348840_1560383375191677161'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_view/template.rb:135:in `block in render'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.0.10/lib/active_support/notifications.rb:54:in `instrument'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_view/template.rb:127:in `render'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_view/render/rendering.rb:59:in `block in _render_template'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.0.10/lib/active_support/notifications.rb:52:in `block in instrument'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.0.10/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.0.10/lib/active_support/notifications.rb:52:in `instrument'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_view/render/rendering.rb:56:in `_render_template'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_view/render/rendering.rb:26:in `render'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_dispatch/middleware/show_exceptions.rb:88:in `rescue_action_locally'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_dispatch/middleware/show_exceptions.rb:68:in `render_exception'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_dispatch/middleware/show_exceptions.rb:59:in `call'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/railties-3.0.10/lib/rails/rack/logger.rb:13:in `call'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/rack-1.2.3/lib/rack/runtime.rb:17:in `call'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.0.10/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/rack-1.2.3/lib/rack/lock.rb:11:in `block in call'
+  <internal:prelude>:10:in `synchronize'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/rack-1.2.3/lib/rack/lock.rb:11:in `call'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_dispatch/middleware/static.rb:30:in `call'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/railties-3.0.10/lib/rails/application.rb:168:in `call'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/railties-3.0.10/lib/rails/application.rb:77:in `method_missing'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/railties-3.0.10/lib/rails/rack/log_tailer.rb:14:in `call'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/rack-1.2.3/lib/rack/content_length.rb:13:in `call'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/rack-1.2.3/lib/rack/handler/webrick.rb:52:in `service'
+  /home/tchan/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /home/tchan/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /home/tchan/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+Started POST "/listings" for 127.0.0.1 at 2011-10-03 22:36:31 -0700
+
+TypeError (expected Array (got Hash) for param `listing'):
+  
+
+Rendered /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (0.7ms)
+
+
+Started GET "/listings" for 127.0.0.1 at 2011-10-04 07:43:18 -0700
+  Processing by ListingsController#index as HTML
+  [1m[36mListing Load (2.3ms)[0m  [1mSELECT "listings".* FROM "listings"[0m
+Rendered /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/gmaps4rails-1.0.2/app/views/gmaps4rails/_gmaps4rails.html.erb (1.7ms)
+Rendered listings/index.html.erb within layouts/application (9.8ms)
+Completed 500 Internal Server Error in 45ms
+
+ActionView::Template::Error (can't convert Symbol into Integer):
+    143:                   <label for="fileInput">File Input:</label>
+    144: 
+    145:                   <div class="input">
+    146:                     <%= f.file_field :images_attributes[:url], :class => 'input-file' %>
+    147:                     <span class=
+    148:                           "help-inline">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Provide
+    149:                       an image of the sale items.</span>
+  app/views/listings/index.html.erb:146:in `[]'
+  app/views/listings/index.html.erb:146:in `block in _app_views_listings_index_html_erb__998252333878888398_35263560_1560383375191677161'
+  app/views/listings/index.html.erb:95:in `_app_views_listings_index_html_erb__998252333878888398_35263560_1560383375191677161'
+  app/controllers/listings_controller.rb:18:in `index'
+
+Rendered /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+Rendered /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.8ms)
+Rendered /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (7.0ms)
+
+
+Started GET "/listings" for 127.0.0.1 at 2011-10-04 07:43:32 -0700
+  Processing by ListingsController#index as HTML
+  [1m[35mListing Load (2.3ms)[0m  SELECT "listings".* FROM "listings"
+Rendered /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/gmaps4rails-1.0.2/app/views/gmaps4rails/_gmaps4rails.html.erb (1.8ms)
+Rendered listings/index.html.erb within layouts/application (13.0ms)
+Completed 200 OK in 56ms (Views: 16.2ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/javascripts/jquery.js" for 127.0.0.1 at 2011-10-04 07:43:32 -0700
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.js"):
+  
+
+Rendered /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/javascripts/jquery.js" for 127.0.0.1 at 2011-10-04 07:43:32 -0700
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.js"):
+  
+
+Rendered /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.3ms)
+Error during failsafe response: ActionView::Template::Error
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.0.10/lib/active_support/whiny_nil.rb:48:in `method_missing'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_dispatch/http/parameters.rb:10:in `parameters'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb:3:in `__home_tchan__rvm_gems_ruby_______p____gems_actionpack________lib_action_dispatch_middleware_templates_rescues_diagnostics_erb___1771942074500000009_29840520_1560383375191677161'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_view/template.rb:135:in `block in render'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.0.10/lib/active_support/notifications.rb:54:in `instrument'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/lib/action_view/template.rb:127:in `render'
+  /home/tchan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.10/li
