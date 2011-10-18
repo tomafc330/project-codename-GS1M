@@ -11,14 +11,24 @@ class ImageUploader < CarrierWave::Uploader::Base
   #storage :file
   storage :fog
 
+
+  def filename
+    random_token = Digest::SHA2.hexdigest("#{Time.now.utc}--#{model.id.to_s}").first(20)
+    ivar = "@#{mounted_as}_secure_token"
+    token = model.instance_variable_get(ivar)
+    token ||= model.instance_variable_set(ivar, random_token)
+    "#{token}.jpg" if original_filename
+  end
+
+  
   # Override the directory where uploaded files will be stored.
   # This is a sensible default for uploaders that are meant to be mounted:
-#  def store_dir
-#    "uploads/#{model.class.to_s.underscore}/#{mounted_as}/#{model.id}"
-#  end
+  #  def store_dir
+  #    "uploads/#{model.class.to_s.underscore}/#{mounted_as}/#{model.id}"
+  #  end
 
   def store_dir
-      "uploads"
+    "uploads"
   end
 
   # Provide a default URL as a default if there hasn't been a file uploaded:
@@ -35,7 +45,7 @@ class ImageUploader < CarrierWave::Uploader::Base
 
   # Create different versions of your uploaded files:
   version :thumb do
-     process :resize_to_fit => [50, 50]
+    process :resize_to_fit => [50, 50]
   end
 
   # Add a white list of extensions which are allowed to be uploaded.
