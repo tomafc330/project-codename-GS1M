@@ -53,6 +53,14 @@ class ListingsController < ApplicationController
     @listing = Listing.find(params[:id])
   end
 
+  def saveImages
+    (params[:image]).each do |key, img|
+      logger.debug "The object is #{img}"
+        @listing.images.build :url =>  img
+      end
+    end
+  end
+  
   # POST /listings
   # POST /listings.xml
   def create
@@ -67,7 +75,7 @@ class ListingsController < ApplicationController
 
     #add the image
     if params.has_key?(:image)
-      @listing.images.build :url =>  params[:image]
+      saveImages
     end
     
     respond_to do |format|
