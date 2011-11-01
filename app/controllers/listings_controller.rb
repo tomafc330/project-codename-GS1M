@@ -13,7 +13,17 @@ class ListingsController < ApplicationController
   # GET /listings.xml
   def index
     @listings = Listing.all
-    @maps_json = @listings.to_gmaps4rails
+    @maps_json = @listings.to_gmaps4rails do | user, marker |
+      marker.infowindow render_to_string(:partial => "/gmaps", :locals => { :user => user}).gsub(/\n/, '').gsub(/"/, '\"')
+      marker.picture({
+          :picture => "http://www.blankdots.com/img/github-32x32.png",
+          :width   => "32",
+          :height  => "32"
+        })
+      marker.title "i'm the title"
+      marker.sidebar "i'm the sidebar"
+      marker.json "\"id\" : #{user.id}"
+    end
 
     respond_to do |format|
       format.html # index.html.erb
@@ -56,8 +66,7 @@ class ListingsController < ApplicationController
   def saveImages
     (params[:image]).each do |key, img|
       logger.debug "The object is #{img}"
-        @listing.images.build :url =>  img
-      end
+      @listing.images.build :url =>  img
     end
   end
   

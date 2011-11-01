@@ -7,7 +7,9 @@ gem 'rails', '3.0.10'
 
 gem 'sqlite3'
 
-gem 'gmaps4rails'
+gem 'crack'
+
+gem "gmaps4rails", "~> 1.3.1"
 
 gem 'geocoder'
 
@@ -20,6 +22,7 @@ gem 'fog'
 # Used for thumbnails and image resizing
 gem 'mini_magick'
 
+# Used for uploads
 gem 'carrierwave'
 
 # Use unicorn as the web server
