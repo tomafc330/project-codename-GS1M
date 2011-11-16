@@ -17,8 +17,7 @@
       this.map = null;
       this.visibleInfoWindow = null;
       this.userLocation = null;
-      this.geolocationFailure = function(boo) {
-        echo ('hello');
+      this.geolocationFailure = function() {
         return false;
       };
       this.callback = function() {
