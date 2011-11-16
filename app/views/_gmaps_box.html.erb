@@ -1,0 +1,28 @@
+<div class="bubble">
+  <h4>Yard Sale Details:</h4>
+  <dl>
+
+    <dt>Location: </dt>
+    <dd><%= user.address %></dd>
+
+
+    <dt>Description: </dt>
+    <dd><%= user.description %></dd>
+
+
+    <dt>Start Date: </dt>
+    <dd><%= user.start_time.strftime("%B %d, %Y (%A)") %></dd>
+
+
+    <dt>Time: </dt>
+    <dd><%= user.start_time.strftime("%I:%M %p") %> to <%= user.end_time.strftime("%I:%M %p") %></dd>
+
+  </dl>
+
+
+  <div class="images">
+    <% user.images.each do |image|  %>
+      <img style="padding-left: 16%" alt="image" src="<%= image.url %>"/>
+    <% end %>
+  </div>
+</div>

@@ -66,3 +66,13 @@ fieldset legend {
     padding: 10px;
     margin-bottom: 10px;
 }
+
+.bubble {
+   border-radius: 11px 11px 11px 11px;
+   color: white;
+   background-color: #849092;
+   margin-top: 0.5em;
+   background: none no-repeat scroll 10px 10px #B5BCBD;
+   margin-bottom: 1.5em;
+   padding: 1em 1em 20px;
+}

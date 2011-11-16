@@ -14,9 +14,9 @@ class ListingsController < ApplicationController
   def index
     @listings = Listing.all
     @maps_json = @listings.to_gmaps4rails do | user, marker |
-      marker.infowindow render_to_string(:partial => "/gmaps", :locals => { :user => user}).gsub(/\n/, '').gsub(/"/, '\"')
+      marker.infowindow render_to_string(:partial => "/gmaps_box", :locals => { :user => user}).gsub(/\n/, '').gsub(/"/, '\"')
       marker.picture({
-          :picture => "http://www.blankdots.com/img/github-32x32.png",
+          :picture => "http://s3.amazonaws.com/static_garage/icon.jpg",
           :width   => "32",
           :height  => "32"
         })

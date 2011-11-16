@@ -8,6 +8,7 @@ Bundler.require(:default, Rails.env) if defined?(Bundler)
 
 module Garage
   class Application < Rails::Application
+
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration should go into files in config/initializers
     # -- all .rb files in that directory are automatically loaded.
@@ -40,5 +41,8 @@ module Garage
     config.filter_parameters += [:password]
 
     config.action_view.javascript_expansions[:defaults] = %w(jquery rails)
+
+    
   end
+  
 end

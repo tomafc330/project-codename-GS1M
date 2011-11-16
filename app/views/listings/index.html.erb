@@ -73,8 +73,11 @@
             </div>
 
 
-            <%= debug @maps_json %>
-            <%#= gmaps4rails(@maps_json) %>
+            <%#= debug @maps_json %>
+            <%= gmaps(
+              "markers" => {"data" => @maps_json},
+              "map_options" => {"detect_location" => true, "center_on_user" => true, "auto_adjust" => true}
+              ) %>
 
             <br />
 
