@@ -4,6 +4,13 @@ $(document).ready(function() {
     showPostDialogOnError();
     addListenerToUploadBtn();
 
+    google.maps.event.addDomListener(document.getElementById("find-now-btn"), 'click', function() {
+        var darwin = new google.maps.LatLng(-12.461334, 130.841904);
+        Gmaps.map.map.setCenter(darwin);
+
+       
+    });
+
 });
 
 function showPostDialogOnError() {
